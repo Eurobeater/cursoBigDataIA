@@ -1,0 +1,231 @@
+###################################################################
+##########     PARA CREAR UN REPOSITORIO LOCAL NUEVO     ##########
+###################################################################
+	
+	1. Crear repositorio de Git en el directorio en el que nos encontramos en la consola
+		git init
+	
+	2. Renombrar la rama a main en vez de master
+		git branch -M main
+		
+	3. Establecer conexión entre el repositorio local y el repositorio remoto. Agrega un nuevo repositorio remoto
+		git remote add origin <url>
+	
+	4. Subir los cambios (commits) locales en la rama main al repositorio remoto origin
+		git push -u origin main
+
+
+#######################################################
+################     IMPORTANTES    ###################
+#######################################################
+
+---Subir los cambios (commits) locales en la rama main al repositorio remoto origin
+	git push -u origin main
+
+---Mostrar un commit anterior
+	git checkout <commit_hash>
+
+---Cambiar de rama
+	git checkout main
+	git checkout <rama>
+
+---Descartar cambios locales
+	git checkout -- <nombre_fichero>
+
+---Crear rama y cambiar a esta
+	git checkout -b <rama>
+
+---Descargar cambios de un repositorio remoto y fusionarlo con el repositorio local. Combina fetch y merge
+	git pull
+	
+---Descarga los últimos cambios del repositorio remoto, pero no los aplica ni fusiona a tu rama actual. El segundo es para eliminar los cambios locales y reemplazar con el remoto
+	git fetch origin
+	git reset --hard origin/main
+
+---Fusionar cambios de otra rama a la actual
+	git merge
+	
+---Deshacer los cambios realizados por un commit específico manteniendo el historial
+	git revert <commit_hash>
+
+---Listar las ramas del repositorio. La rama que tiene un (*) es la actual
+	git branch
+
+---Guardar los cambios temporalmente en local, sin subir
+	git stash
+
+---Ver los cambios guardados temporalmente en local (stash)
+	git stash list
+
+---Recuperar cambios guardados temporalmente (stash)
+	git stash pop
+
+
+
+#####################################################################
+################     ¿QUÉ HACER PARA UN PULL?    ###################
+#####################################################################
+
+	1. El compañero hace cambios. Hacer un git pull
+		git pull origin main
+
+	Resultado:
+		<h1>Hola, bienvenido a nuestra increíble página web</h1> <!-- Tu cambio -->
+		<footer>Derechos reservados 2024</footer> <!-- Cambio de tu compañero -->
+		
+
+#############################################################################
+################     ¿QUÉ HACER PARA UN FETCH Y MERGE?    ###################
+#############################################################################
+
+	1. Verificar el estado actual. Abrir la terminal y verifica el estado con:
+		git status
+	
+	2. Usar git fetch para obtener los cambios del remoto. Antes de mezclar, primero hay que obtener los últimos cambios del repositorio remoto sin aplicarlos todavía:
+		git fetch origin
+		
+	3. Revisa los cambios. Puedes ver qué cambios se han hecho en el remoto usando:
+		git log origin/main
+
+	4. Usar git merge para fusionar los cambios. Al revisar los cambios, puedes fusionar los cambios de la rama remota a tu rama local:
+		git merge origin/main
+
+#####################################################################
+################     ¿QUÉ HACER PARA UN STASH?    ###################
+#####################################################################
+
+	1. Verifica tu estado actual:
+		git status
+		
+	Salida esperada:
+		On branch main
+		Changes not staged for commit:
+		modified:   hola_mundo.js
+	
+	2. Guarda tus cambios en el stash:
+		git stash
+	
+	Mensaje esperado:
+		Saved working directory and index state WIP on main: <commit-hash> <commit-message>
+		
+	3. Verifica que el stash se ha guardado:
+		git stash list
+
+	Salida esperada:
+		stash@{0}: WIP on main: <commit-hash> <commit-message>
+		
+	4. Realiza un pull para obtener los cambios del repositorio remoto:
+		git pull origin main
+		
+	5. Recupera tus cambios del stash:
+		git stash pop
+		
+	Mensaje esperado:
+		Auto-merging hola_mundo.js
+		CONFLICT (content): Merge conflict in hola_mundo.js
+
+
+
+#################################################
+################     TODOS    ###################
+#################################################
+
+---Crear repositorio de Git en el directorio en el que nos encontramos en la consola
+	git init
+
+---Renombrar la rama a main en vez de master
+	git branch -M main
+
+---Establecer conexión entre el repositorio local y el repositorio remoto. Agrega un nuevo repositorio remoto
+	git remote add origin <url>
+
+---Subir los cambios (commits) locales en la rama main al repositorio remoto origin
+	git push -u origin main
+
+---Mostrar un commit anterior
+	git checkout <commit_hash>
+
+---Cambiar de rama
+	git checkout main
+	git checkout <rama>
+
+---Descartar cambios locales
+	git checkout -- <nombre_fichero>
+
+---Crear rama y cambiar a esta
+	git checkout -b <rama>
+
+---Clonar un repositorio desde una URL
+	git clone <url>
+	
+---Mostrar los archivos nuevos o que se han modificado (no trackeados)
+	git status
+
+---Agregar cambios a la "área de preparación" (staging area) de Git antes de confirmar (commit)
+	git add .
+	git add <fichero.extension>
+
+---Comprar los archivos subidos en el staging area con los que tenemos localmente
+	git diff
+
+---Confirmar los cambios realizados en el área de preparación
+	git commit -m "Comentario"
+
+---Subir los cambios al repositorio
+	git push
+
+---Descarga los últimos cambios del repositorio remoto, pero no los aplica ni fusiona a tu rama actual. El segundo es para eliminar los cambios locales y reemplazar con el remoto
+	git fetch origin
+	git reset --hard origin/main
+
+---Guardar los cambios temporalmente en local, sin subir
+	git stash
+
+---Ver los cambios guardados temporalmente en local (stash)
+	git stash list
+
+---Recuperar cambios guardados temporalmente (stash)
+	git stash pop
+
+---Historial de commits del repositorio con el hash de cada commit, autor y mensaje (Presionar 'Q' para salir)
+	git log
+
+---Listar las ramas del repositorio. La rama que tiene un (*) es la actual
+	git branch
+
+---Descargar cambios de un repositorio remoto y fusionarlo con el repositorio local. Combina fetch y merge
+	git pull
+
+---Fusionar cambios de otra rama a la actual
+	git merge
+	
+---Deshacer los cambios realizados por un commit específico manteniendo el historial
+	git revert <commit_hash>
+
+
+
+
+
+
+
+
+
+
+
+…or create a new repository on the command line
+echo "# frgsfdh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Eurobeater/frgsfdh.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Eurobeater/frgsfdh.git
+git branch -M main
+git push -u origin main
+
+
+
+
