@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+# Import module sys
+import sys
+
+# Variable to store how many times the pattern was found
+occurrences = 0
+
+# Open the file whose name is specified in the first argument
+# Before! No error control in this version
+with open(sys.argv[1]) as f:
+    for line in f:
+        # The words of every line are stored as a list
+        words = line.split()
+        # Check for matches
+        for w in words:
+            # The pattern to be found is specified in sys.argv[2]
+            if w == sys.argv[2]:
+                occurrences += 1 
+
+    print("The word", sys.argv[2], "appeared", occurrences, "times in file", sys.argv[1])
+    f.close()
