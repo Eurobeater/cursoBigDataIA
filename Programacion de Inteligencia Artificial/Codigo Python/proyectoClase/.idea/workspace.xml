@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fa357fb-653a-4b75-9925-3313767adbb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/proyectoClase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia1/Python file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia1/conversiones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia1/formatear_cadenas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia1/integers_floats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia1/variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/diccionarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/listas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/metodos_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/operadores_matematicos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/propiedades_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/redondeo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/substrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia3/tuplas.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nIuXyQhYY289JyZxVCk8KBzd87" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Booleanos.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Python file.executor": "Run",
+    "Python.conjuntos.executor": "Run",
+    "Python.conversiones.executor": "Run",
+    "Python.diccionarios.executor": "Run",
+    "Python.formatear_cadenas.executor": "Run",
+    "Python.index.executor": "Run",
+    "Python.integers_floats.executor": "Run",
+    "Python.listas.executor": "Run",
+    "Python.metodos_strings.executor": "Run",
+    "Python.operadores_matematicos.executor": "Run",
+    "Python.propiedades_strings.executor": "Run",
+    "Python.proyecto_dia_3.executor": "Run",
+    "Python.redondeo.executor": "Run",
+    "Python.substrings.executor": "Run",
+    "Python.tuplas.executor": "Run",
+    "Python.variables.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Buhardilla/PycharmProjects/proyectoClase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Buhardilla\PycharmProjects\proyectoClase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Buhardilla\PycharmProjects\proyectoClase\dia3" />
+      <recent name="C:\Users\Buhardilla\PycharmProjects\proyectoClase\dia1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fa357fb-653a-4b75-9925-3313767adbb7" name="Changes" comment="" />
+      <created>1728672954443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728672954443</updated>
+      <workItem from="1728672955816" duration="499000" />
+      <workItem from="1729006461141" duration="1893000" />
+      <workItem from="1729093282869" duration="1474000" />
+      <workItem from="1729094778548" duration="5000" />
+      <workItem from="1729096682509" duration="644000" />
+      <workItem from="1729186483930" duration="6060000" />
+      <workItem from="1729192609916" duration="2000" />
+      <workItem from="1729270927962" duration="6476000" />
+      <workItem from="1729278918337" duration="3000" />
+      <workItem from="1729793025587" duration="124000" />
+      <workItem from="1729880140197" duration="3792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/proyectoClase$index.coverage" NAME="index Coverage Results" MODIFIED="1729190851476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$diccionarios.coverage" NAME="diccionarios Coverage Results" MODIFIED="1729277807330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$Main.coverage" NAME="Main Coverage Results" MODIFIED="1729190145670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$Python_file.coverage" NAME="Python file Coverage Results" MODIFIED="1729093344943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$Booleanos.coverage" NAME="Booleanos Coverage Results" MODIFIED="1729881837501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$metodos_strings.coverage" NAME="metodos_strings Coverage Results" MODIFIED="1729883092822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$operadores_matematicos.coverage" NAME="operadores_matematicos Coverage Results" MODIFIED="1729188625688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$substrings.coverage" NAME="substrings Coverage Results" MODIFIED="1729191401876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_3.coverage" NAME="proyecto_dia_3 Coverage Results" MODIFIED="1729883871452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$propiedades_strings.coverage" NAME="propiedades_strings Coverage Results" MODIFIED="1729274503968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$listas.coverage" NAME="listas Coverage Results" MODIFIED="1729275423698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$conversiones.coverage" NAME="conversiones Coverage Results" MODIFIED="1729188038545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$conjuntos.coverage" NAME="conjuntos Coverage Results" MODIFIED="1729881192692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$redondeo.coverage" NAME="redondeo Coverage Results" MODIFIED="1729188879904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$formatear_cadenas.coverage" NAME="formatear_cadenas Coverage Results" MODIFIED="1729094637677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$tuplas.coverage" NAME="tuplas Coverage Results" MODIFIED="1729278851439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$variables.coverage" NAME="variables Coverage Results" MODIFIED="1729187060059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$integers_floats.coverage" NAME="integers_floats Coverage Results" MODIFIED="1729187548411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
