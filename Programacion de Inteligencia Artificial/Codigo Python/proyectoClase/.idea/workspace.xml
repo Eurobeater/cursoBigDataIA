@@ -50,37 +50,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Booleanos.executor": "Run",
-    "Python.Main.executor": "Run",
-    "Python.Python file.executor": "Run",
-    "Python.conjuntos.executor": "Run",
-    "Python.conversiones.executor": "Run",
-    "Python.diccionarios.executor": "Run",
-    "Python.formatear_cadenas.executor": "Run",
-    "Python.index.executor": "Run",
-    "Python.integers_floats.executor": "Run",
-    "Python.listas.executor": "Run",
-    "Python.metodos_strings.executor": "Run",
-    "Python.operadores_matematicos.executor": "Run",
-    "Python.propiedades_strings.executor": "Run",
-    "Python.proyecto_dia_3.executor": "Run",
-    "Python.redondeo.executor": "Run",
-    "Python.substrings.executor": "Run",
-    "Python.tuplas.executor": "Run",
-    "Python.variables.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Buhardilla/PycharmProjects/proyectoClase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Booleanos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conjuntos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conversiones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionarios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.formatear_cadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.index.executor&quot;: &quot;Run&quot;,
+    &quot;Python.integers_floats.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.metodos_strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operadores_matematicos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.propiedades_strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proyecto_dia_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redondeo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.substrings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuplas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Buhardilla/PycharmProjects/proyectoClase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Buhardilla\PycharmProjects\proyectoClase" />
@@ -117,6 +117,8 @@
       <workItem from="1729278918337" duration="3000" />
       <workItem from="1729793025587" duration="124000" />
       <workItem from="1729880140197" duration="3792000" />
+      <workItem from="1729890093419" duration="338000" />
+      <workItem from="1730132881010" duration="8323000" />
     </task>
     <servers />
   </component>
@@ -143,7 +145,7 @@
     <SUITE FILE_PATH="coverage/proyectoClase$metodos_strings.coverage" NAME="metodos_strings Coverage Results" MODIFIED="1729883092822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$operadores_matematicos.coverage" NAME="operadores_matematicos Coverage Results" MODIFIED="1729188625688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proyectoClase$substrings.coverage" NAME="substrings Coverage Results" MODIFIED="1729191401876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_3.coverage" NAME="proyecto_dia_3 Coverage Results" MODIFIED="1729883871452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_3.coverage" NAME="proyecto_dia_3 Coverage Results" MODIFIED="1730140225381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$propiedades_strings.coverage" NAME="propiedades_strings Coverage Results" MODIFIED="1729274503968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$listas.coverage" NAME="listas Coverage Results" MODIFIED="1729275423698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$conversiones.coverage" NAME="conversiones Coverage Results" MODIFIED="1729188038545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
