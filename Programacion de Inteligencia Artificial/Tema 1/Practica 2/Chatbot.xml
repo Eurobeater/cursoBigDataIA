@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>QUIERO JUGAR</pattern>
+    <template>Ok, vamos a jugar al piedra, papel o tijeras. Empieza tú.</template>
+    <think> 
+        <set name="topic">piedrapapeltijeras</set> 
+        <set name="victorias">0</set> 
+        <set name="derrotas">0</set> 
+    </think> 
+  </category>
+  
+  <condition name="eleccion"> 
+    <li value="piedra"> 
+        <random> 
+            <li>Papel<srai>INCREMENTAR DERROTAS</srai></li>  
+            <li>Tijeras<srai>INCREMENTAR VICTORIAS</srai></li> 
+            <li>Piedra</li> 
+        </random> 
+    </li>  
+  </condition>
+    
+  <category>
+    <pattern>PIEDRA</pattern>
+    <template>
+      <random>
+        <li>Papel. Yo gano esta vez.<srai>INCREMENTAR DERROTAS</srai></li>
+        <li>Tijeras. ¡Tú ganas!<srai>INCREMENTAR VICTORIAS</srai></li>
+        <li>Piedra. Es un empate.</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>PAPEL</pattern>
+    <template>
+      <random>
+        <li>Tijeras. Yo gano esta vez.<srai>INCREMENTAR DERROTAS</srai></li>
+        <li>Piedra. ¡Tú ganas!<srai>INCREMENTAR VICTORIAS</srai></li>
+        <li>Papel. Es un empate.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TIJERAS</pattern>
+    <template>
+      <random>
+        <li>Piedra. Yo gano esta vez.<srai>INCREMENTAR DERROTAS</srai></li>
+        <li>Papel. ¡Tú ganas!<srai>INCREMENTAR VICTORIAS</srai></li>
+        <li>Tijeras. Es un empate.</li>
+      </random>
+    </template>
+  </category>
+    
+  <category> 
+    <pattern>INCREMENTAR VICTORIAS</pattern>
+    <template>
+      <think>
+        <set name="victorias"><get name="victorias"/>+1</set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>INCREMENTAR DERROTAS</pattern>
+    <template>
+      <think>
+        <set name="derrotas"><get name="derrotas"/>+1</set>
+      </think>
+    </template>
+  </category>
+    
+    <category> 
+    <pattern>DIME LA PUNTUACION</pattern>
+    <template>
+        Has ganado <get name="victorias"/> veces y perdido <get name="derrotas"/> veces.
+    </template>
+  </category>
+    
+  <category> 
+    <pattern>TERMINAR</pattern> 
+    <template> 
+        Adiós. Has ganado <get name="victorias"/> veces y perdido <get name="derrotas"/> veces.
+        <think>
+            <set name="topic"></set> <!-- Elimina el topic para finalizar el juego -->
+        </think>
+    </template> 
+  </category>  
+</aiml>
