@@ -1,10 +1,10 @@
 def variables():
-    texto_usuario = input()
+    texto_usuario = input("Introduce un texto: ")
     texto_usuario_minus = texto_usuario.lower()
 
-    usuario_pregunta_letra_uno = input().lower()
-    usuario_pregunta_letra_dos = input().lower()
-    usuario_pregunta_letra_tres = input().lower()
+    usuario_pregunta_letra_uno = input("Introduce una letra: ").lower()
+    usuario_pregunta_letra_dos = input("Introduce otra letra: ").lower()
+    usuario_pregunta_letra_tres = input("Introduce una última letra: ").lower()
 
     encuentra_python = texto_usuario.find("Python")
     encuentra_python = isPythonThere(encuentra_python)
