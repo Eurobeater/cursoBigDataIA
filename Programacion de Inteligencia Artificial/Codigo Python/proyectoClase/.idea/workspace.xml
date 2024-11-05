@@ -64,6 +64,7 @@
     "Python.listas.executor": "Run",
     "Python.metodos_strings.executor": "Run",
     "Python.operadores_matematicos.executor": "Run",
+    "Python.piedra_papel_tijeras.executor": "Run",
     "Python.propiedades_strings.executor": "Run",
     "Python.proyecto_dia_3.executor": "Run",
     "Python.redondeo.executor": "Run",
@@ -72,12 +73,13 @@
     "Python.variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Buhardilla/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/Codigo Python/proyectoClase",
+    "last_opened_file_path": "C:/Users/Buhardilla/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/Tema 1/Practica 2/Codigo resuelto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,8 +95,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -120,6 +122,7 @@
       <workItem from="1729890093419" duration="338000" />
       <workItem from="1730132881010" duration="8323000" />
       <workItem from="1730824778670" duration="1400000" />
+      <workItem from="1730831734399" duration="1368000" />
     </task>
     <servers />
   </component>
@@ -139,6 +142,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoClase$index.coverage" NAME="index Coverage Results" MODIFIED="1729190851476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$piedra_papel_tijeras.coverage" NAME="piedra_papel_tijeras Coverage Results" MODIFIED="1730833038106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Tema 1/Practica 2/Codigo resuelto" />
     <SUITE FILE_PATH="coverage/proyectoClase$diccionarios.coverage" NAME="diccionarios Coverage Results" MODIFIED="1729277807330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$Main.coverage" NAME="Main Coverage Results" MODIFIED="1729190145670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$Python_file.coverage" NAME="Python file Coverage Results" MODIFIED="1729093344943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

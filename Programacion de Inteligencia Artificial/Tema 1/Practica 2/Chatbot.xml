@@ -83,7 +83,7 @@
     <template> 
         Adiós. Has ganado <get name="victorias"/> veces y perdido <get name="derrotas"/> veces.
         <think>
-            <set name="topic"></set> <!-- Elimina el topic para finalizar el juego -->
+            <set name="topic"></set>
         </think>
     </template> 
   </category>  
