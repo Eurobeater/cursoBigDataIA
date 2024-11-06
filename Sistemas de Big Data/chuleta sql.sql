@@ -46,3 +46,5 @@ SELECT title FROM film WHERE title LIKE '____________%';
 SELECT title FROM film WHERE rating != 'NC-17';
 
 SELECT title FROM film WHERE length = (SELECT MAX(length) FROM film);
+
+SELECT title, first_name, last_name FROM film LEFT JOIN film_actor ON film.film_id = film_actor.film_id LEFT JOIN actor ON film_actor.actor_id = actor.actor_id;
