@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fa357fb-653a-4b75-9925-3313767adbb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/proyectoClase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia1/Python file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia1/conversiones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia1/formatear_cadenas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia1/integers_floats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia1/variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/diccionarios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/metodos_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/operadores_matematicos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/propiedades_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/redondeo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/substrings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dia3/tuplas.py" afterDir="false" />
-    </list>
+    <list default="true" id="9fa357fb-653a-4b75-9925-3313767adbb7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -65,6 +44,7 @@
     "Python.conversiones.executor": "Run",
     "Python.diccionarios.executor": "Run",
     "Python.ejemplo_funcion.executor": "Run",
+    "Python.ejercicio_generico_1.executor": "Run",
     "Python.enumerador.executor": "Run",
     "Python.formatear_cadenas.executor": "Run",
     "Python.funciones.executor": "Run",
@@ -90,8 +70,8 @@
     "Python.variables.executor": "Run",
     "Python.zip.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Buhardilla/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/Codigo Python/proyectoClase",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Buhardilla/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/Python/proyectoClase",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -144,6 +124,9 @@
       <workItem from="1730910262724" duration="3151000" />
       <workItem from="1731005212248" duration="5475000" />
       <workItem from="1731089757294" duration="7024000" />
+      <workItem from="1731355980764" duration="341000" />
+      <workItem from="1731429307760" duration="1750000" />
+      <workItem from="1731438586514" duration="3789000" />
     </task>
     <servers />
   </component>
@@ -193,6 +176,7 @@
     <SUITE FILE_PATH="coverage/proyectoClase$ejemplo_funcion.coverage" NAME="ejemplo_funcion Coverage Results" MODIFIED="1731093581762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$listas.coverage" NAME="listas Coverage Results" MODIFIED="1729275423698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$conversiones.coverage" NAME="conversiones Coverage Results" MODIFIED="1729188038545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$ejercicio_generico_1.coverage" NAME="ejercicio_generico_1 Coverage Results" MODIFIED="1731442386828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$funciones.coverage" NAME="funciones Coverage Results" MODIFIED="1731090300976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$control_flujo.coverage" NAME="control_flujo Coverage Results" MODIFIED="1730912120540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$compresion_de_listas.coverage" NAME="compresion_de_listas Coverage Results" MODIFIED="1731009957324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
