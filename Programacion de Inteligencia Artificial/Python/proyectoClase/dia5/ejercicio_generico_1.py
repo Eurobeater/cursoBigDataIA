@@ -1,37 +1,14 @@
-prueba_numeros = [5, 10, 15]
-
-for i in range(len(prueba_numeros)):
-    print(f"Índice: {i}, Número: {prueba_numeros[i]}")
-
-
-
-def devolver_distintos(numero_1, numero_2, numero_3):
-    numeros = [numero_1, numero_2, numero_3]
-    saca_numero = 0
-    if numero_1 + numero_2 + numero_3 > 15:
-        for numero in numeros:
-            if numero > numero:
-                saca_numero = numero
-        print("Condicion 1")
-    elif numero_1 + numero_2 + numero_3 < 10:
-        for numero in numeros:
-            if numero > saca_numero:
-                saca_numero = numero
-        print("Condicion 2")
+def devolver_distintos(num1, num2, num3):
+    suma = num1 + num2 + num3
+    if suma > 15:
+        return max(num1, num2, num3)
+    elif suma < 10:
+        return min(num1, num2, num3)
     else:
-        for numero in numeros:
-            if numero > saca_numero:
-                saca_numero = numero
-        print("Condicion 3")
-    return saca_numero
+        return suma - max(num1, num2, num3) - min(num1, num2, num3)
 
-numero_1 = input("Escribe el número 1: ")
-numero_2 = input("Escribe el número 2: ")
-numero_3 = input("Escribe el número 3: ")
+num1 = input("Escribe el numro 1: ")
+num2 = input("Escribe el numro 2: ")
+num3 = input("Escribe el numro 3: ")
 
-print(devolver_distintos(int(numero_1), int(numero_2), int(numero_3)))
-
-prueba1 = 5
-prueba2 = 10
-prueba3 = 15
-
+print(devolver_distintos(int(num1), int(num2), int(num3)))
