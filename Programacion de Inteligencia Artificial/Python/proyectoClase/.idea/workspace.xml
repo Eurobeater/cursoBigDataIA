@@ -139,6 +139,7 @@
       <workItem from="1731613859027" duration="1368000" />
       <workItem from="1731693934530" duration="7750000" />
       <workItem from="1732034199411" duration="2334000" />
+      <workItem from="1732120047011" duration="2113000" />
     </task>
     <servers />
   </component>
@@ -169,7 +170,7 @@
     <SUITE FILE_PATH="coverage/proyectoClase$Random.coverage" NAME="Random Coverage Results" MODIFIED="1731007602030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$bucles_for.coverage" NAME="bucles_for Coverage Results" MODIFIED="1731005906847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$zip.coverage" NAME="zip Coverage Results" MODIFIED="1731008557143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_6.coverage" NAME="proyecto_dia_6 Coverage Results" MODIFIED="1732035934657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6/proyecto_dia_6" />
+    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_6.coverage" NAME="proyecto_dia_6 Coverage Results" MODIFIED="1732121872215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6/proyecto_dia_6" />
     <SUITE FILE_PATH="coverage/proyectoClase$interaccion_funciones.coverage" NAME="interaccion_funciones Coverage Results" MODIFIED="1731094995166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$conjuntos.coverage" NAME="conjuntos Coverage Results" MODIFIED="1729881192692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$redondeo.coverage" NAME="redondeo Coverage Results" MODIFIED="1729188879904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
