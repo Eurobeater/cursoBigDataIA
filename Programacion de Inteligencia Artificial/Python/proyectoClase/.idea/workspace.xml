@@ -30,64 +30,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Booleanos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random.executor&quot;: &quot;Run&quot;,
-    &quot;Python.args.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bucles_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bucles_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.compresion_de_listas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conjuntos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.control_flujo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conversiones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.diccionarios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.directorios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_funcion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_generico_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_generico_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.enumerador.executor&quot;: &quot;Run&quot;,
-    &quot;Python.escribir_archivos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.formatear_cadenas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funciones_dinamicas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.integers_floats.executor&quot;: &quot;Run&quot;,
-    &quot;Python.interaccion_funciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kwargs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.match.executor&quot;: &quot;Run&quot;,
-    &quot;Python.metodos_strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.min_y_max.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operadores_comparacion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operadores_logicos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operadores_matematicos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.path_doc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pathlib_doc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.piedra_papel_tijeras.executor&quot;: &quot;Run&quot;,
-    &quot;Python.propiedades_strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proyecto_dia_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proyecto_dia_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rango.executor&quot;: &quot;Run&quot;,
-    &quot;Python.redondeo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.substrings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tuplas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zip.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Buhardilla/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/Python/proyectoClase&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Booleanos.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Python file.executor": "Run",
+    "Python.Random.executor": "Run",
+    "Python.args.executor": "Run",
+    "Python.atributos.executor": "Run",
+    "Python.bucles_for.executor": "Run",
+    "Python.bucles_while.executor": "Run",
+    "Python.clases.executor": "Run",
+    "Python.compresion_de_listas.executor": "Run",
+    "Python.conjuntos.executor": "Run",
+    "Python.control_flujo.executor": "Run",
+    "Python.conversiones.executor": "Run",
+    "Python.diccionarios.executor": "Run",
+    "Python.directorios.executor": "Run",
+    "Python.ejemplo_funcion.executor": "Run",
+    "Python.ejercicio_generico_1.executor": "Run",
+    "Python.ejercicio_generico_2.executor": "Run",
+    "Python.enumerador.executor": "Run",
+    "Python.escribir_archivos.executor": "Run",
+    "Python.formatear_cadenas.executor": "Run",
+    "Python.funciones.executor": "Run",
+    "Python.funciones_dinamicas.executor": "Run",
+    "Python.herencia.executor": "Run",
+    "Python.herencia_multiple.executor": "Run",
+    "Python.index.executor": "Run",
+    "Python.integers_floats.executor": "Run",
+    "Python.interaccion_funciones.executor": "Run",
+    "Python.kwargs.executor": "Run",
+    "Python.listas.executor": "Run",
+    "Python.match.executor": "Run",
+    "Python.metodos.executor": "Run",
+    "Python.metodos_strings.executor": "Run",
+    "Python.min_y_max.executor": "Run",
+    "Python.operadores_comparacion.executor": "Run",
+    "Python.operadores_logicos.executor": "Run",
+    "Python.operadores_matematicos.executor": "Run",
+    "Python.path_doc.executor": "Run",
+    "Python.pathlib_doc.executor": "Run",
+    "Python.piedra_papel_tijeras.executor": "Run",
+    "Python.propiedades_strings.executor": "Run",
+    "Python.proyecto_dia_3.executor": "Run",
+    "Python.proyecto_dia_6.executor": "Run",
+    "Python.rango.executor": "Run",
+    "Python.redondeo.executor": "Run",
+    "Python.substrings.executor": "Run",
+    "Python.tipos_de_metodos.executor": "Run",
+    "Python.tuplas.executor": "Run",
+    "Python.variables.executor": "Run",
+    "Python.zip.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Buhardilla/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/Python/proyectoClase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Buhardilla\PycharmProjects\proyectoClase" />
@@ -139,7 +145,8 @@
       <workItem from="1731613859027" duration="1368000" />
       <workItem from="1731693934530" duration="7750000" />
       <workItem from="1732034199411" duration="2334000" />
-      <workItem from="1732120047011" duration="2113000" />
+      <workItem from="1732120047011" duration="2730000" />
+      <workItem from="1732214215631" duration="5760000" />
     </task>
     <servers />
   </component>
@@ -159,48 +166,54 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoClase$piedra_papel_tijeras.coverage" NAME="piedra_papel_tijeras Coverage Results" MODIFIED="1730833038106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Tema 1/Practica 2/Codigo resuelto" />
-    <SUITE FILE_PATH="coverage/proyectoClase$rango.coverage" NAME="rango Coverage Results" MODIFIED="1731009231871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$Main.coverage" NAME="Main Coverage Results" MODIFIED="1729190145670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$match.coverage" NAME="match Coverage Results" MODIFIED="1731010710788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$substrings.coverage" NAME="substrings Coverage Results" MODIFIED="1729191401876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$propiedades_strings.coverage" NAME="propiedades_strings Coverage Results" MODIFIED="1729274503968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$clases.coverage" NAME="clases Coverage Results" MODIFIED="1732215383133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia7" />
+    <SUITE FILE_PATH="coverage/proyectoClase$atributos.coverage" NAME="atributos Coverage Results" MODIFIED="1732216139249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia7" />
     <SUITE FILE_PATH="coverage/proyectoClase$bucles_while.coverage" NAME="bucles_while Coverage Results" MODIFIED="1731006690757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$kwargs.coverage" NAME="kwargs Coverage Results" MODIFIED="1731096478909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
-    <SUITE FILE_PATH="coverage/proyectoClase$operadores_comparacion.coverage" NAME="operadores_comparacion Coverage Results" MODIFIED="1730910753061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$Random.coverage" NAME="Random Coverage Results" MODIFIED="1731007602030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
+    <SUITE FILE_PATH="coverage/proyectoClase$tipos_de_metodos.coverage" NAME="tipos_de_metodos Coverage Results" MODIFIED="1732218344901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia7" />
     <SUITE FILE_PATH="coverage/proyectoClase$bucles_for.coverage" NAME="bucles_for Coverage Results" MODIFIED="1731005906847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$zip.coverage" NAME="zip Coverage Results" MODIFIED="1731008557143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_6.coverage" NAME="proyecto_dia_6 Coverage Results" MODIFIED="1732121872215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6/proyecto_dia_6" />
     <SUITE FILE_PATH="coverage/proyectoClase$interaccion_funciones.coverage" NAME="interaccion_funciones Coverage Results" MODIFIED="1731094995166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$conjuntos.coverage" NAME="conjuntos Coverage Results" MODIFIED="1729881192692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$redondeo.coverage" NAME="redondeo Coverage Results" MODIFIED="1729188879904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proyectoClase$tuplas.coverage" NAME="tuplas Coverage Results" MODIFIED="1729278851439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$variables.coverage" NAME="variables Coverage Results" MODIFIED="1729187060059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proyectoClase$integers_floats.coverage" NAME="integers_floats Coverage Results" MODIFIED="1729187548411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proyectoClase$index.coverage" NAME="index Coverage Results" MODIFIED="1729190851476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$diccionarios.coverage" NAME="diccionarios Coverage Results" MODIFIED="1729277807330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$Python_file.coverage" NAME="Python file Coverage Results" MODIFIED="1729093344943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proyectoClase$operadores_logicos.coverage" NAME="operadores_logicos Coverage Results" MODIFIED="1730911336212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$directorios.coverage" NAME="directorios Coverage Results" MODIFIED="1731694462738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6" />
     <SUITE FILE_PATH="coverage/proyectoClase$Booleanos.coverage" NAME="Booleanos Coverage Results" MODIFIED="1729881837501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$metodos_strings.coverage" NAME="metodos_strings Coverage Results" MODIFIED="1729883092822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$operadores_matematicos.coverage" NAME="operadores_matematicos Coverage Results" MODIFIED="1729188625688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proyectoClase$min_y_max.coverage" NAME="min_y_max Coverage Results" MODIFIED="1731008971868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$pathlib_doc.coverage" NAME="pathlib_doc Coverage Results" MODIFIED="1731695596722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6" />
     <SUITE FILE_PATH="coverage/proyectoClase$enumerador.coverage" NAME="enumerador Coverage Results" MODIFIED="1731008146924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_3.coverage" NAME="proyecto_dia_3 Coverage Results" MODIFIED="1730825170636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
-    <SUITE FILE_PATH="coverage/proyectoClase$ejercicio_generico_2.coverage" NAME="ejercicio_generico_2 Coverage Results" MODIFIED="1731516138883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
-    <SUITE FILE_PATH="coverage/proyectoClase$ejemplo_funcion.coverage" NAME="ejemplo_funcion Coverage Results" MODIFIED="1731093581762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
+    <SUITE FILE_PATH="coverage/proyectoClase$herencia.coverage" NAME="herencia Coverage Results" MODIFIED="1732218819234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia7" />
     <SUITE FILE_PATH="coverage/proyectoClase$listas.coverage" NAME="listas Coverage Results" MODIFIED="1729275423698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
     <SUITE FILE_PATH="coverage/proyectoClase$escribir_archivos.coverage" NAME="escribir_archivos Coverage Results" MODIFIED="1731614862411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6" />
     <SUITE FILE_PATH="coverage/proyectoClase$conversiones.coverage" NAME="conversiones Coverage Results" MODIFIED="1729188038545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$control_flujo.coverage" NAME="control_flujo Coverage Results" MODIFIED="1730912120540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
+    <SUITE FILE_PATH="coverage/proyectoClase$formatear_cadenas.coverage" NAME="formatear_cadenas Coverage Results" MODIFIED="1729094637677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$args.coverage" NAME="args Coverage Results" MODIFIED="1731095308726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
+    <SUITE FILE_PATH="coverage/proyectoClase$rango.coverage" NAME="rango Coverage Results" MODIFIED="1731009231871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
+    <SUITE FILE_PATH="coverage/proyectoClase$Main.coverage" NAME="Main Coverage Results" MODIFIED="1729190145670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$metodos.coverage" NAME="metodos Coverage Results" MODIFIED="1732217561508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia7" />
+    <SUITE FILE_PATH="coverage/proyectoClase$match.coverage" NAME="match Coverage Results" MODIFIED="1731010710788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
+    <SUITE FILE_PATH="coverage/proyectoClase$substrings.coverage" NAME="substrings Coverage Results" MODIFIED="1729191401876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$propiedades_strings.coverage" NAME="propiedades_strings Coverage Results" MODIFIED="1729274503968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$operadores_comparacion.coverage" NAME="operadores_comparacion Coverage Results" MODIFIED="1730910753061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
+    <SUITE FILE_PATH="coverage/proyectoClase$Random.coverage" NAME="Random Coverage Results" MODIFIED="1731007602030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
+    <SUITE FILE_PATH="coverage/proyectoClase$herencia_multiple.coverage" NAME="herencia_multiple Coverage Results" MODIFIED="1732219393916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia7" />
+    <SUITE FILE_PATH="coverage/proyectoClase$redondeo.coverage" NAME="redondeo Coverage Results" MODIFIED="1729188879904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$tuplas.coverage" NAME="tuplas Coverage Results" MODIFIED="1729278851439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$integers_floats.coverage" NAME="integers_floats Coverage Results" MODIFIED="1729187548411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$index.coverage" NAME="index Coverage Results" MODIFIED="1729190851476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$Python_file.coverage" NAME="Python file Coverage Results" MODIFIED="1729093344943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$directorios.coverage" NAME="directorios Coverage Results" MODIFIED="1731694462738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6" />
+    <SUITE FILE_PATH="coverage/proyectoClase$metodos_strings.coverage" NAME="metodos_strings Coverage Results" MODIFIED="1729883092822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$operadores_matematicos.coverage" NAME="operadores_matematicos Coverage Results" MODIFIED="1729188625688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyectoClase$proyecto_dia_3.coverage" NAME="proyecto_dia_3 Coverage Results" MODIFIED="1730825170636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia3" />
+    <SUITE FILE_PATH="coverage/proyectoClase$ejercicio_generico_2.coverage" NAME="ejercicio_generico_2 Coverage Results" MODIFIED="1731516138883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
+    <SUITE FILE_PATH="coverage/proyectoClase$ejemplo_funcion.coverage" NAME="ejemplo_funcion Coverage Results" MODIFIED="1731093581762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$ejercicio_generico_1.coverage" NAME="ejercicio_generico_1 Coverage Results" MODIFIED="1731515814665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$path_doc.coverage" NAME="path_doc Coverage Results" MODIFIED="1731698211594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia6" />
     <SUITE FILE_PATH="coverage/proyectoClase$funciones.coverage" NAME="funciones Coverage Results" MODIFIED="1731090300976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
-    <SUITE FILE_PATH="coverage/proyectoClase$control_flujo.coverage" NAME="control_flujo Coverage Results" MODIFIED="1730912120540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
     <SUITE FILE_PATH="coverage/proyectoClase$compresion_de_listas.coverage" NAME="compresion_de_listas Coverage Results" MODIFIED="1731009957324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia4" />
-    <SUITE FILE_PATH="coverage/proyectoClase$formatear_cadenas.coverage" NAME="formatear_cadenas Coverage Results" MODIFIED="1729094637677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proyectoClase$args.coverage" NAME="args Coverage Results" MODIFIED="1731095308726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
     <SUITE FILE_PATH="coverage/proyectoClase$funciones_dinamicas.coverage" NAME="funciones_dinamicas Coverage Results" MODIFIED="1731091652338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dia5" />
   </component>
 </project>
