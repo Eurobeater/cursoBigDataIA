@@ -1,0 +1,22 @@
+Explain
+STAGE DEPENDENCIES:
+  Stage-0 is a root stage
+""
+STAGE PLANS:
+  Stage: Stage-0
+    Fetch Operator
+      limit: -1
+      Processor Tree:
+        TableScan
+          alias: staging_temperatures
+          filterExpr: ((region = 'Europe') and (UDFToDouble(year) = 2015.0D) and (UDFToDouble(avgtemperature) > 85.0D)) (type: boolean)
+          Statistics: Num rows: 872 Data size: 905280 Basic stats: COMPLETE Column stats: NONE
+          Filter Operator
+            predicate: ((region = 'Europe') and (UDFToDouble(year) = 2015.0D) and (UDFToDouble(avgtemperature) > 85.0D)) (type: boolean)
+            Statistics: Num rows: 1 Data size: 1038 Basic stats: COMPLETE Column stats: NONE
+            Select Operator
+"              expressions: city (type: string), month (type: string), day (type: string), avgtemperature (type: string)"
+"              outputColumnNames: _col0, _col1, _col2, _col3"
+              Statistics: Num rows: 1 Data size: 1038 Basic stats: COMPLETE Column stats: NONE
+              ListSink
+""
