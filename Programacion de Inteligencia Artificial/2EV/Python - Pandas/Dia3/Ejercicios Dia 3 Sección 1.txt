@@ -1,0 +1,36 @@
+Ejercicios Dia 3 Sección 1
+
+Ejercicios Propuestos
+1. Renombrar columnas:
+
+	Crea un DataFrame con las columnas: ["Nombre", "Edad", "Ciudad", "Salario"].
+	Renombra las columnas ["Nombre", "Ciudad"] a ["Empleado", "Ubicación"].
+
+2. Añadir columnas:
+
+	Usa el DataFrame del ejercicio anterior y añade:
+	Una columna calculada que divida el salario entre la edad.
+	Una columna constante con el valor "Empleado Activo".
+
+3. Eliminar columnas:
+
+	Elimina la columna constante añadida en el ejercicio anterior.
+
+4. Modificar valores en una columna:
+
+	Convierte los nombres de los empleados en la columna Empleado a minúsculas.
+
+5. Desafío adicional:
+
+	Usando el siguiente DataFrame:
+
+	data = {
+	    "Producto": ["Manzanas", "Plátanos", "Naranjas", "Peras"],
+	    "Costo": [1.2, 0.8, 1.5, 1.3],
+	    "Cantidad": [100, 150, 120, 90]
+	}
+
+	Renombra Costo a Precio Unitario.
+	Añade una columna Stock Total que sea igual a Costo * Cantidad.
+	Elimina la columna Cantidad.
+	

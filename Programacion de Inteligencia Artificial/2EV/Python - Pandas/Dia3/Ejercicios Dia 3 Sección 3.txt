@@ -1,0 +1,52 @@
+Ejercicios Dia 3 Sección 3
+
+1. Configurar un índice:
+
+    Usa el siguiente DataFrame:
+
+        data = {
+            "Empleado": ["Carlos", "Ana", "Luis", "Elena"],
+            "Edad": [30, 25, 35, 28],
+            "Departamento": ["Ventas", "Marketing", "IT", "Finanzas"]
+        }
+        df = pd.DataFrame(data)
+
+    - Configura la columna Empleado como índice.
+    - Selecciona las filas correspondientes a "Carlos" y "Elena".
+
+2. Restablecer un índice:
+
+    - Restablece el índice del DataFrame del ejercicio anterior y verifica que Empleado vuelve a ser una columna regular.
+
+3. Modificar índices:
+
+    - Cambia las etiquetas del índice a ["E1", "E2", "E3", "E4"].
+
+4. Trabajar con índices jerárquicos:
+
+    - Crea un DataFrame con un índice jerárquico (MultiIndex) para las siguientes categorías:
+
+        data = {
+            "Categoria": ["Frutas", "Frutas", "Verduras", "Verduras"],
+            "Producto": ["Manzanas", "Plátanos", "Lechuga", "Zanahorias"],
+            "Precio": [1.2, 0.8, 0.5, 0.7],
+            "Stock": [100, 150, 200, 180]
+        }
+
+    - Configura Categoria y Producto como índices jerárquicos.
+    - Selecciona los productos de la categoría "Frutas".
+
+5. Desafío adicional:
+
+    Usa el siguiente DataFrame:
+
+        data = {
+            "Mes": ["Enero", "Enero", "Febrero", "Febrero"],
+            "Ciudad": ["Madrid", "Barcelona", "Madrid", "Barcelona"],
+            "Ventas": [250, 300, 400, 350]
+        }
+        df = pd.DataFrame(data)
+
+    - Configura un índice jerárquico con las columnas Mes y Ciudad.
+    - Selecciona las ventas de "Enero" para "Madrid".
+    

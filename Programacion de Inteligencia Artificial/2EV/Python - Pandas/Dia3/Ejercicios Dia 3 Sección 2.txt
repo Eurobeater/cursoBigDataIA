@@ -1,0 +1,41 @@
+Ejercicios Dia 3 Sección 2
+
+1. Aplicar funciones:
+
+	Usa el siguiente DataFrame:
+
+		data = {
+		    "Empleado": ["Carlos", "Ana", "Luis", "Elena"],
+		    "Horas Trabajadas": [40, 35, 45, 30],
+		    "Tarifa por Hora": [15, 18, 20, 12]
+		}
+		df = pd.DataFrame(data)
+
+	- Añade una columna Salario calculada como Horas Trabajadas * Tarifa por Hora.
+	- Convierte los nombres de los empleados a mayúsculas.
+
+2. Filtrar datos:
+
+	- Filtra los empleados con un salario mayor a 600.
+	- Filtra los empleados que trabajaron más de 40 horas y tienen una tarifa por hora mayor a 15.
+
+3. Ordenar datos:
+
+	Ordena el DataFrame anterior por Horas Trabajadas en orden descendente.
+	Ordena por Tarifa por Hora en orden ascendente y, en caso de empate, por Horas Trabajadas en orden descendente.
+
+4. Desafío adicional:
+
+	Crea un DataFrame con datos de estudiantes:
+
+		data = {
+		    "Estudiante": ["Carlos", "Ana", "Luis", "Elena"],
+		    "Nota 1": [85, 90, 78, 88],
+		    "Nota 2": [80, 85, 70, 92]
+		}
+		df = pd.DataFrame(data)
+
+	-Añade una columna Promedio calculada como el promedio de Nota 1 y Nota 2.
+	- Filtra estudiantes con un promedio mayor o igual a 85.
+	- Ordena el DataFrame por el promedio en orden descendente.
+	
