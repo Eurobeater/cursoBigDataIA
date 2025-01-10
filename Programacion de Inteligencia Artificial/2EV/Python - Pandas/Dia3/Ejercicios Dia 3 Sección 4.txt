@@ -1,0 +1,34 @@
+Ejercicios Dia 3 Sección 4
+
+1. Manejo de valores nulos:
+
+	Crea un DataFrame con datos de empleados donde algunas filas tengan valores nulos.
+	Elimina las filas con valores nulos.
+	Reemplaza los valores nulos en las columnas numéricas con la mediana.
+
+2. Eliminar duplicados:
+
+	Usa un DataFrame de ventas donde algunas filas estén duplicadas.
+	Elimina las filas duplicadas y verifica el resultado.
+
+3. Cambiar tipos de datos:
+
+	Crea un DataFrame con una columna de fechas como cadenas.
+	Convierte la columna de fechas al tipo datetime.
+
+4. Corregir valores incorrectos:
+
+	Crea un DataFrame con datos de productos y precios.
+	Corrige los precios que sean menores a 0, reemplazándolos con la media de la columna.
+
+5. Desafío adicional:
+
+	Descarga un dataset con valores nulos (por ejemplo, el dataset Titanic de Kaggle).
+	Realiza las siguientes tareas:
+		Reemplaza los valores nulos en la columna Age con la mediana.
+		Elimina las columnas con más del 50% de valores nulos.
+		Convierte la columna Embarked a un tipo categórico.
+
+
+
+

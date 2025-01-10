@@ -1,0 +1,32 @@
+Ejercicios Dia 4 Sección 1
+
+1. Agrupar y calcular estadísticas:
+
+	Usa el siguiente DataFrame:
+
+		data = {
+		    "Departamento": ["Ventas", "IT", "Ventas", "Finanzas", "IT", "Finanzas"],
+		    "Empleado": ["Carlos", "Ana", "Luis", "Elena", "Luis", "Carlos"],
+		    "Salario": [3000, 2800, 3200, 4000, 2800, 4100]
+		}
+		df = pd.DataFrame(data)
+
+	Calcula el salario promedio por departamento.
+	Calcula el salario máximo y mínimo por departamento.
+
+2. Filtrar grupos:
+
+	Filtra los departamentos cuyo salario total sea mayor a 6000.
+
+3. Transformar datos:
+
+	Normaliza los salarios dentro de cada departamento dividiendo el salario de cada empleado por el salario total de su departamento.
+
+4. Combinación de operaciones:
+
+	Usa el DataFrame del ejercicio 1:
+		Agrupa por Departamento y calcula el promedio de los salarios.
+
+
+
+Filtra los departamentos cuyo salario promedio sea mayor a 3500.
