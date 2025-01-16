@@ -1,0 +1,42 @@
+Ejercicios Día 5 Sección 1
+
+1. Gráficos de líneas:
+
+	Usa el siguiente DataFrame:
+
+		data = {
+		    "Mes": ["Enero", "Febrero", "Marzo", "Abril"],
+		    "Ventas": [200, 250, 300, 400],
+		    "Ganancias": [50, 70, 90, 120]
+		}
+		df = pd.DataFrame(data)
+
+	- Genera un gráfico de líneas para mostrar las ventas por mes.
+	- Añade las ganancias al mismo gráfico.
+
+2. Gráficos de barras:
+
+	Usa el DataFrame inicial y:
+	- Crea un gráfico de barras para comparar las ventas y el stock.
+	- Crea un gráfico de barras horizontales para comparar los precios.
+
+3. Histogramas:
+
+	- Usa el DataFrame inicial y genera un histograma que muestre la distribución del stock.
+
+4. Gráficos de dispersión:
+
+	- Crea un gráfico de dispersión para analizar la relación entre las ventas y el precio de los productos.
+
+5. Gráficos de tarta:
+
+	- Muestra la proporción de stock por producto usando un gráfico de torta.
+
+6. Desafío adicional:
+
+	Descarga un dataset (por ejemplo, datos de ventas o demográficos) y realiza las siguientes tareas:
+	- Genera gráficos para analizar la distribución de al menos dos variables.
+	- Crea gráficos de dispersión para explorar relaciones entre variables.
+	- Representa proporciones usando gráficos de torta.
+
+	

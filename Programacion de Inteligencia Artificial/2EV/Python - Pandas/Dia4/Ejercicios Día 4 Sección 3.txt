@@ -1,0 +1,38 @@
+Ejercicios Día 4 Sección 3
+
+1. Conversión de fechas:
+
+	Usa el siguiente DataFrame:
+
+		data = {
+		    "Fecha": ["2022-12-31", "2023-01-01", "2023-01-05"],
+		    "Producto": ["Manzanas", "Plátanos", "Peras"],
+		    "Cantidad": [10, 20, 15]
+		}
+		df = pd.DataFrame(data)
+
+	- Convierte la columna Fecha al formato datetime.
+	- Extrae el año, mes, y día.
+
+2. Filtrar por fechas:
+
+	- Filtra los productos vendidos en 2023.
+
+3. Generar rangos de fechas:
+
+	- Genera un rango de fechas que incluya los primeros 10 días de 2023.
+	- Usa este rango para crear un nuevo DataFrame con una columna Fecha y otra con un valor constante.
+
+4. Operaciones con fechas:
+
+	- Calcula la diferencia en días entre cada fecha y el 2023-01-01.
+	- Añade una columna que indique si el día es fin de semana.
+
+5. Desafío adicional:
+
+	- Descarga un dataset con una columna de fechas (por ejemplo, datos de ventas o series temporales).
+	- Realiza las siguientes tareas:
+		.Convierte las fechas al formato datetime.
+		.Calcula estadísticas mensuales y trimestrales (suma, promedio).
+		.Filtra los datos de los últimos 6 meses.
+		

@@ -1,0 +1,41 @@
+Ejercicios Día 4 Sección 4
+
+1. Ventas por vendedor y producto:
+
+	- Usa el DataFrame inicial y crea una tabla dinámica que:
+		. Tenga Vendedor como índice.
+		. Muestre las ventas para cada Producto en columnas.
+		. Agregue totales para filas y columnas.
+
+2. Funciones de agregación:
+
+	- Calcula la suma, promedio y valor máximo de las ventas por producto.
+
+3. Agrupación por tiempo:
+
+	- Genera un DataFrame con fechas y ventas.
+	- Crea una tabla dinámica que:
+		. Agrupe las ventas por trimestre (quarter).
+		. Calcule la suma total por trimestre.
+
+4. Tablas dinámicas avanzadas:
+
+	Usa el siguiente DataFrame:
+
+		data = {
+		    "Empleado": ["Carlos", "Ana", "Luis", "Carlos", "Ana", "Luis", "Elena"],
+		    "Departamento": ["Ventas", "Ventas", "IT", "IT", "Finanzas", "Finanzas", "Ventas"],
+		    "Salario": [3000, 3200, 4000, 4100, 3500, 3000, 2800]
+		}
+		df = pd.DataFrame(data)
+
+	- Crea una tabla dinámica que:
+	- Tenga Departamento como índice.
+	- Muestre la suma y el promedio del salario para cada departamento.
+
+5. Desafío adicional:
+
+	- Descarga un dataset con datos de ventas (por ejemplo, de Kaggle).
+	- Crea tablas dinámicas que analicen:
+		. Las ventas por producto y región.
+		. Las ventas por mes y categoría de producto.

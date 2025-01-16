@@ -1,0 +1,63 @@
+Ejercicios Día 4 Sección 2
+
+1. Concatenación:
+
+	Crea dos DataFrames con datos de ventas:
+
+		ventas_1 = pd.DataFrame({
+		    "ID": [1, 2, 3],
+		    "Producto": ["Manzanas", "Peras", "Naranjas"],
+		    "Cantidad": [10, 15, 8]
+		})
+
+		ventas_2 = pd.DataFrame({
+		    "ID": [4, 5, 6],
+		    "Producto": ["Plátanos", "Manzanas", "Peras"],
+		    "Cantidad": [5, 12, 9]
+		})
+
+	Concatenar los DataFrames por filas.
+	Concatenar los DataFrames por columnas.
+
+2. Merge:
+
+	Usa los siguientes DataFrames:
+
+		empleados = pd.DataFrame({
+		    "ID": [1, 2, 3],
+		    "Nombre": ["Carlos", "Ana", "Luis"]
+		})
+
+		salarios = pd.DataFrame({
+		    "ID": [2, 3, 4],
+		    "Salario": [2500, 3200, 2800]
+		})
+
+	Realiza una combinación usando:
+		Inner Join.
+		Left Join.
+		Outer Join.
+
+3. Unión por índices:
+
+	Crea dos DataFrames con índices personalizados:
+
+		df1 = pd.DataFrame({
+		    "Nombre": ["Carlos", "Ana", "Luis"],
+		    "Edad": [30, 25, 28]
+		}, index=["A", "B", "C"])
+
+		df2 = pd.DataFrame({
+		    "Ciudad": ["Madrid", "Barcelona", "Valencia"],
+		    "Salario": [3000, 3200, 2800]
+		}, index=["B", "C", "D"])
+
+	Une los DataFrames usando sus índices.
+
+4. Desafío adicional:
+
+	Descarga dos datasets relacionados (por ejemplo, el dataset Titanic y un dataset con información de puertos).
+	Combínalos usando una clave común, como el código de embarque (Embarked).
+
+
+

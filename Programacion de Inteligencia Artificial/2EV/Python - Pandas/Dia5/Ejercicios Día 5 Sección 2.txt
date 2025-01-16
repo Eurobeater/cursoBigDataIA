@@ -1,0 +1,34 @@
+Ejercicios Día 5 Sección 2
+
+1. Matplotlib:
+
+	Usa el siguiente DataFrame:
+
+		data = {
+		    "Mes": ["Enero", "Febrero", "Marzo", "Abril"],
+		    "Ventas": [200, 250, 300, 400],
+		    "Ganancias": [50, 70, 90, 120]
+		}
+		df = pd.DataFrame(data)
+
+	- Crea un gráfico de líneas que muestre ventas y ganancias por mes, personalizando colores, marcadores, y título.
+	- Crea un gráfico de barras que compare las ventas por mes.
+
+2. Seaborn:
+
+	Usa el DataFrame inicial y:
+	- Crea un gráfico de dispersión para analizar la relación entre precio y ventas, con diferentes colores por producto.
+	- Crea un gráfico de cajas para la distribución del precio.
+
+3. Gráficos combinados:
+
+	Combina Matplotlib y Seaborn para:
+	- Crear un gráfico de barras para las ventas por producto con una línea que muestre el stock.
+
+4. Desafío adicional:
+
+	Descarga un dataset con múltiples variables (por ejemplo, datos demográficos o económicos).
+	Realiza las siguientes tareas:
+	- Usa Matplotlib para representar gráficos de líneas y barras.
+	- Usa Seaborn para explorar correlaciones y distribuciones entre las variables.
+	

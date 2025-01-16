@@ -1,0 +1,31 @@
+Ejercicios Día 5 Sección 3
+
+1. Verificación de calidad de datos:
+
+	Usa el DataFrame inicial y:
+	- Verifica los valores nulos y duplicados.
+	- Obtén estadísticas descriptivas para columnas numéricas y categóricas.
+
+2. Distribuciones:
+
+	- Genera un gráfico de caja (boxplot) para la distribución de precios por producto.
+	- Genera un histograma para la distribución de ventas.
+
+3. Relaciones:
+
+	- Usa un gráfico de dispersión para analizar la relación entre el precio y las ventas.
+	- Crea un gráfico de barras para mostrar el promedio de ventas por vendedor.
+
+4. Tendencias temporales:
+
+	- Crea un gráfico de líneas para mostrar las ventas totales a lo largo del tiempo.
+
+5. Desafío adicional:
+
+	- Descarga un dataset con columnas categóricas y numéricas.
+	- Realiza las siguientes tareas:
+		.Verifica la calidad de los datos.
+		.Crea gráficos que analicen distribuciones y relaciones entre variables.
+
+		
+Identifica tendencias temporales o patrones categóricos.
