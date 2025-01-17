@@ -1,0 +1,31 @@
+Ejercicios Día 6 Sección 3
+
+1. Búsqueda de patrones:
+
+	- Identifica todas las filas que contienen la palabra "Precio" en la descripción.
+	- Crea una nueva columna que indique si la descripción contiene un descuento.
+
+2. Extracción de datos:
+
+	Usa el DataFrame inicial y:
+	- Extrae el nombre del producto y guárdalo en una nueva columna.
+	- Extrae el precio y conviértelo a formato numérico.
+
+3. Reemplazo de patrones:
+
+	- Reemplaza la palabra "Producto:" por un espacio vacío en la columna Descripción.
+	- Cambia cualquier aparición de "$" por "USD".
+
+4. División de texto:
+
+	- Divide la columna Descripción en varias columnas basadas en la coma como delimitador.
+	- Renombra las columnas resultantes con nombres significativos.
+
+5. Aplicación avanzada:
+
+	Descarga un dataset con texto desordenado (por ejemplo, datos de logs o transacciones).
+	Realiza las siguientes tareas:
+		- Extrae información clave del texto utilizando patrones RegEx.
+		- Limpia las cadenas reemplazando caracteres no deseados.
+		- Divide las cadenas en partes manejables basadas en delimitadores.
+

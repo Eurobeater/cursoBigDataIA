@@ -1,0 +1,33 @@
+Ejercicios Día 6 Sección 1
+
+1. Medición de memoria:
+
+	Usa el DataFrame inicial y:
+	- Mide el uso de memoria antes de realizar cambios.
+	- Identifica las columnas que consumen más memoria.
+
+2. Optimización:
+
+	- Convierte las columnas numéricas a tipos de menor tamaño (int32, float32).
+	- Cambia las columnas categóricas a tipo category.
+	- Calcula el uso de memoria después de las optimizaciones.
+
+3. Procesamiento en fragmentos:
+
+	- Descarga un archivo CSV grande (más de 100 MB) y:
+	- Procesa el archivo en fragmentos de 10,000 filas.
+	- Calcula el promedio de una columna en cada fragmento y almacena los resultados.
+
+4. Carga eficiente:
+
+	- Usa un archivo CSV con varias columnas y:
+		Carga solo las columnas necesarias utilizando usecols.
+		Define los tipos de datos adecuados utilizando dtype.
+
+5. Desafío adicional:
+
+	Descarga un dataset grande (por ejemplo, datos meteorológicos).
+	Realiza las siguientes tareas:
+		- Carga los datos optimizando la memoria.
+		- Procesa los datos por fragmentos para calcular estadísticas resumidas.
+		- Genera un nuevo archivo CSV con los datos optimizados.

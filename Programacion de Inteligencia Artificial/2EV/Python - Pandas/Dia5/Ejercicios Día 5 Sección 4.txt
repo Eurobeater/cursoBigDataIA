@@ -1,0 +1,35 @@
+Ejercicios Día 5 Sección 4
+
+1. Correlaciones:
+
+	Usa el DataFrame inicial y:
+	- Calcula la matriz de correlación entre las columnas numéricas.
+	- Identifica las relaciones más fuertes (positivas o negativas).
+
+2. Mapas de calor:
+
+	- Crea un mapa de calor que visualice las correlaciones.
+	- Cambia el estilo del mapa de calor utilizando diferentes colores (cmap).
+
+3. Relación entre variables:
+
+	- Genera un gráfico de dispersión para analizar la relación entre Stock y Ventas.
+	- Añade una línea de tendencia al gráfico.
+
+4. Pruebas estadísticas:
+
+	- Realiza una prueba de correlación entre Descuento y Ventas.
+	- Interpreta el coeficiente de correlación y el p-valor.
+
+5. Relaciones categóricas:
+
+	- Usa un gráfico de barras para comparar las ventas promedio entre los productos.
+	- Genera un gráfico de cajas (boxplot) para analizar la distribución de precios por producto.
+
+6. Desafío adicional:
+
+	Descarga un dataset con variables categóricas y numéricas (por ejemplo, un dataset de automóviles).
+	Realiza las siguientes tareas:
+		- Calcula y visualiza la matriz de correlación.
+		- Identifica las variables más relacionadas y representa su relación con un gráfico de dispersión.
+		- Realiza pruebas estadísticas para confirmar las relaciones detectadas.
