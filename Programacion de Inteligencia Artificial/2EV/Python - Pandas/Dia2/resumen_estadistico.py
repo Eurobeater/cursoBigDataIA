@@ -14,4 +14,4 @@ df = pd.DataFrame(data)
 print("\nEstadísticas descriptivas para columnas numéricas:\n", df.describe())
 
 # Estadisticas descriptivas para columnas categóricas
-print("\nEstadísticas descriptivas para columnas categóricas:\n", df.describe())
+print("\nEstadísticas descriptivas para columnas categóricas:\n", df.describe(include='object'))

@@ -10,7 +10,7 @@ data = {
 df = pd.DataFrame(data)
 print("DataFrame original:\n", df)
 
-# Renomrar columnas
+# Renombrar columnas
 df_renombrado = df.rename(columns = {"Producto": "Nombre", "Stock": "Inventario"})
 print("\nDataFrame con columnas renombradas\n", df_renombrado)
 
