@@ -1,0 +1,62 @@
+Algoritmos de Ordenación:
+
+1. Algoritmos de Ordenación Simple (Basados en comparaciones)
+
+	- Bubble Sort (Ordenación por burbuja)
+	- Selection Sort (Ordenación por selección)
+	- Insertion Sort (Ordenación por inserción)
+
+2. Algoritmos de Ordenación Eficientes (Divide y Venceras)
+
+	- Merge Sort (Ordenación por Mezcla)
+	- Quick Sort (Ordenación Rápida)
+	- Heap Sort (Ordenación por montículo)
+
+3. Algoritmos de Ordenación no Comparativos (Más Rápidos)
+
+	- Counting Sort (Ordenación por Conteo)
+	- Radix Sort (Ordenación por Radix)
+	- Bucket Sort (Ordenación por cubetas)
+
+4. Algoritmos de Ordenación Adaptativos
+	
+	- Tim Sort.
+	- Intro Sort.
+
+
+
+Algoritmo Buble Sort:
+
+ALGORITMO BubbleSort(lista, n)
+    PARA i DESDE 0 HASTA n-2 HACER
+        PARA j DESDE 0 HASTA n-2-i HACER
+            SI lista[j] > lista[j+1] ENTONCES
+                // Intercambiar elementos si están en el orden incorrecto
+                temp ← lista[j]
+                lista[j] ← lista[j+1]
+                lista[j+1] ← temp
+            FIN SI
+        FIN PARA
+    FIN PARA
+FIN ALGORITMO
+
+
+Algoritmo de Selección:
+
+ALGORITMO SelectionSort(lista, n)
+    PARA i DESDE 0 HASTA n-2 HACER
+        minIndex ← i  // Suponemos que el mínimo está en la posición i
+        PARA j DESDE i+1 HASTA n-1 HACER
+            SI lista[j] < lista[minIndex] ENTONCES
+                minIndex ← j  // Actualizamos la posición del mínimo encontrado
+            FIN SI
+        FIN PARA
+        // Intercambiar el menor encontrado con el primer elemento no ordenado
+        SI minIndex ≠ i ENTONCES
+            temp ← lista[i]
+            lista[i] ← lista[minIndex]
+            lista[minIndex] ← temp
+        FIN SI
+    FIN PARA
+FIN ALGORITMO
+
