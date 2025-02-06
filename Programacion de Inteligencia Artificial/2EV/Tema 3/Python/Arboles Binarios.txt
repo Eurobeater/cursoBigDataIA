@@ -1,0 +1,131 @@
+CLASE Nodo
+    ATRIBUTOS:
+        dato
+        izquierdo
+        derecho
+
+    MÉTODO CONSTRUCTOR(dato)
+        self.dato ← dato
+        self.izquierdo ← NULO
+        self.derecho ← NULO
+    FIN MÉTODO
+FIN CLASE
+
+CLASE ArbolBinario
+    ATRIBUTOS:
+        raiz
+
+    MÉTODO CONSTRUCTOR()
+        self.raiz ← NULO
+    FIN MÉTODO
+
+    MÉTODO insertar(dato)
+        SI self.raiz ES NULO ENTONCES
+            self.raiz ← Nodo(dato)
+        SINO
+            LLAMAR insertar_recursivo(self.raiz, dato)
+        FIN SI
+    FIN MÉTODO
+
+    MÉTODO insertar_recursivo(nodo, dato)
+        SI dato < nodo.dato ENTONCES
+            SI nodo.izquierdo ES NULO ENTONCES
+                nodo.izquierdo ← Nodo(dato)
+            SINO
+                LLAMAR insertar_recursivo(nodo.izquierdo, dato)
+            FIN SI
+        SINO
+            SI nodo.derecho ES NULO ENTONCES
+                nodo.derecho ← Nodo(dato)
+            SINO
+                LLAMAR insertar_recursivo(nodo.derecho, dato)
+            FIN SI
+        FIN SI
+    FIN MÉTODO
+
+    MÉTODO buscar(dato) → BOOLEANO
+        RETORNAR buscar_recursivo(self.raiz, dato)
+    FIN MÉTODO
+
+    MÉTODO buscar_recursivo(nodo, dato) → BOOLEANO
+        SI nodo ES NULO ENTONCES
+            RETORNAR FALSO
+        SI nodo.dato = dato ENTONCES
+            RETORNAR VERDADERO
+        SI dato < nodo.dato ENTONCES
+            RETORNAR buscar_recursivo(nodo.izquierdo, dato)
+        SINO
+            RETORNAR buscar_recursivo(nodo.derecho, dato)
+        FIN SI
+    FIN MÉTODO
+
+    MÉTODO eliminar(dato)
+        self.raiz ← eliminar_recursivo(self.raiz, dato)
+    FIN MÉTODO
+
+    MÉTODO eliminar_recursivo(nodo, dato) → Nodo
+        SI nodo ES NULO ENTONCES
+            RETORNAR NULO
+        SI dato < nodo.dato ENTONCES
+            nodo.izquierdo ← eliminar_recursivo(nodo.izquierdo, dato)
+        SINO SI dato > nodo.dato ENTONCES
+            nodo.derecho ← eliminar_recursivo(nodo.derecho, dato)
+        SINO
+            SI nodo.izquierdo ES NULO ENTONCES
+                RETORNAR nodo.derecho
+            SINO SI nodo.derecho ES NULO ENTONCES
+                RETORNAR nodo.izquierdo
+            SINO
+                sucesor ← encontrar_minimo(nodo.derecho)
+                nodo.dato ← sucesor.dato
+                nodo.derecho ← eliminar_recursivo(nodo.derecho, sucesor.dato)
+            FIN SI
+        FIN SI
+        RETORNAR nodo
+    FIN MÉTODO
+
+    MÉTODO encontrar_minimo(nodo) → Nodo
+        MIENTRAS nodo.izquierdo NO SEA NULO HACER
+            nodo ← nodo.izquierdo
+        FIN MIENTRAS
+        RETORNAR nodo
+    FIN MÉTODO
+
+    MÉTODO recorrer_en_orden(nodo)
+        SI nodo NO ES NULO ENTONCES
+            recorrer_en_orden(nodo.izquierdo)
+            IMPRIMIR nodo.dato
+            recorrer_en_orden(nodo.derecho)
+        FIN SI
+    FIN MÉTODO
+
+    MÉTODO recorrer_pre_orden(nodo)
+        SI nodo NO ES NULO ENTONCES
+            IMPRIMIR nodo.dato
+            recorrer_pre_orden(nodo.izquierdo)
+            recorrer_pre_orden(nodo.derecho)
+        FIN SI
+    FIN MÉTODO
+
+    MÉTODO recorrer_post_orden(nodo)
+        SI nodo NO ES NULO ENTONCES
+            recorrer_post_orden(nodo.izquierdo)
+            recorrer_post_orden(nodo.derecho)
+            IMPRIMIR nodo.dato
+        FIN SI
+    FIN MÉTODO
+
+    MÉTODO obtener_altura() → ENTERO
+        RETORNAR obtener_altura_recursivo(self.raiz)
+    FIN MÉTODO
+
+    MÉTODO obtener_altura_recursivo(nodo) → ENTERO
+        SI nodo ES NULO ENTONCES
+            RETORNAR -1  # Árbol vacío tiene altura -1
+        SINO
+            altura_izquierda ← obtener_altura_recursivo(nodo.izquierdo)
+            altura_derecha ← obtener_altura_recursivo(nodo.derecho)
+            RETORNAR MAX(altura_izquierda, altura_derecha) + 1
+        FIN SI
+    FIN MÉTODO
+FIN CLASE
