@@ -26,6 +26,12 @@ class ArbolBinario:
             else:
                 self._insertar_recursivo(nodo.derecho, dato)
 
+    def recorrer_en_orden(self, nodo):
+        if nodo is not None:
+            self.recorrer_en_orden(nodo.izquierdo)
+            print(nodo.dato, end=" ")
+            self.recorrer_en_orden(nodo.derecho)
+
     def buscar(self, dato):
         return self._buscar_recursivo(self.raiz, dato)
 
@@ -64,12 +70,6 @@ class ArbolBinario:
             nodo = nodo.izquierdo
         return nodo
 
-    def recorrer_en_orden(self, nodo):
-        if nodo is not None:
-            self.recorrer_en_orden(nodo.izquierdo)
-            print(nodo.dato, end=" ")
-            self.recorrer_en_orden(nodo.derecho)
-
     def obtener_altura(self):
         return self._obtener_altura_recursivo(self.raiz)
 
@@ -80,26 +80,30 @@ class ArbolBinario:
         derecha = self._obtener_altura_recursivo(nodo.derecho)
         return max(izquierda, derecha) + 1
 
-# Ejemplo de uso
 arbol = ArbolBinario()
-arbol.insertar(50)
-arbol.insertar(30)
-arbol.insertar(70)
-arbol.insertar(20)
-arbol.insertar(40)
-arbol.insertar(60)
-arbol.insertar(80)
 
-print("Recorrido en orden:")
+valores = ["H", "F", "B", "A", "D", "G", "J", "I", "K"]
+for v in valores:
+    arbol.insertar(v)
+
+print("Recorrido en orden (ascendente):")
 arbol.recorrer_en_orden(arbol.raiz)
+print("\n")
 
-print("\nAltura del árbol:", arbol.obtener_altura())
+buscar_valores = ["A", "J", "Z"]
+for v in buscar_valores:
+    encontrado = arbol.buscar(v)
+    print(f"¿El valor '{v}' está en el árbol?: {'Sí' if encontrado else 'No'}")
 
-print("\nBuscar 40:", arbol.buscar(40))
-print("Buscar 100:", arbol.buscar(100))
+altura_antes = arbol.obtener_altura()
+print(f"\nAltura del árbol antes de eliminaciones: {altura_antes}")
 
-print("\nEliminar 70")
-arbol.eliminar(70)
+arbol.eliminar("F")
+arbol.eliminar("J")
 
-print("Recorrido en orden después de eliminar 70:")
+print("\nRecorrido en orden después de eliminar F y J:")
 arbol.recorrer_en_orden(arbol.raiz)
+print("\n")
+
+altura_despues = arbol.obtener_altura()
+print(f"Altura del árbol después de eliminaciones: {altura_despues}")
