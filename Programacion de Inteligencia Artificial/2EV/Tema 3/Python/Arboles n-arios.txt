@@ -1,0 +1,92 @@
+class NodoGeneral:
+    def __init__(self, dato):
+        self.dato = dato
+        self.hijos = []  # Lista de hijos en lugar de solo dos nodos
+
+class ArbolGeneral:
+    def __init__(self):
+        self.raiz = None
+
+    def insertar(self, dato, padre=None):
+        """Inserta un nuevo nodo en el árbol.
+        Si el árbol está vacío, el primer nodo será la raíz.
+        Si se especifica un padre, el nodo se insertará como su hijo."""
+        
+        nuevo_nodo = NodoGeneral(dato)
+
+        if self.raiz is None:
+            self.raiz = nuevo_nodo
+        else:
+            nodo_padre = self.buscar(padre)
+            if nodo_padre:
+                nodo_padre.hijos.append(nuevo_nodo)
+            else:
+                print(f"Error: No se encontró el nodo padre '{padre}'.")
+
+    def buscar(self, dato):
+        """Busca un nodo en el árbol y devuelve la referencia al nodo si lo encuentra."""
+        return self._buscar_recursivo(self.raiz, dato)
+
+    def _buscar_recursivo(self, nodo, dato):
+        if nodo is None:
+            return None
+        if nodo.dato == dato:
+            return nodo
+        for hijo in nodo.hijos:
+            encontrado = self._buscar_recursivo(hijo, dato)
+            if encontrado:
+                return encontrado
+        return None
+
+    def eliminar(self, dato):
+        """Elimina un nodo y asigna sus hijos al padre."""
+        if self.raiz is None:
+            return
+
+        if self.raiz.dato == dato:
+            self.raiz = None
+            return
+
+        self._eliminar_recursivo(None, self.raiz, dato)
+
+    def _eliminar_recursivo(self, padre, nodo, dato):
+        """Busca y elimina un nodo reorganizando sus hijos."""
+        for hijo in nodo.hijos:
+            if hijo.dato == dato:
+                nodo.hijos.remove(hijo)
+                nodo.hijos.extend(hijo.hijos)  # Reasigna sus hijos al padre
+                return
+            self._eliminar_recursivo(nodo, hijo, dato)
+
+    def recorrer_preorden(self):
+        """Imprime los nodos en preorden (raíz, hijos de izquierda a derecha)."""
+        self._recorrer_preorden(self.raiz)
+        print()
+
+    def _recorrer_preorden(self, nodo):
+        if nodo is not None:
+            print(nodo.dato, end=" ")
+            for hijo in nodo.hijos:
+                self._recorrer_preorden(hijo)
+
+    def obtener_altura(self):
+        """Calcula la altura del árbol."""
+        return self._obtener_altura_recursivo(self.raiz)
+
+    def _obtener_altura_recursivo(self, nodo):
+        if nodo is None:
+            return 0  # Árbol vacío
+        if not nodo.hijos:
+            return 1  # Nodo hoja
+        return max(self._obtener_altura_recursivo(hijo) for hijo in nodo.hijos) + 1
+
+
+
+
+
+
+
+
+
+
+
