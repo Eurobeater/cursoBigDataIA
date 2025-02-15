@@ -1,0 +1,22 @@
+1. Suma de Subconjuntos
+	Dado un conjunto de N números enteros positivos y un valor objetivo S, el problema consiste en encontrar todos los subconjuntos cuya suma sea exactamente S.
+
+	Probar con:
+	conjunto = [3, 34, 4, 12, 5, 2]
+	S = 9
+
+
+2. El caballo de ajedrez
+	El problema del recorrido del caballo consiste en mover un caballo de ajedrez sobre un tablero de N × N casillas, visitando cada casilla una sola vez.
+
+	📌 Objetivo:
+	Encontrar un camino en el que el caballo recorra todas las casillas del tablero sin repetir ninguna.
+
+	📌 Ejemplo con N = 5 (Tablero 5×5)
+	Aquí se muestra un recorrido válido para un tablero de 5×5:
+
+	 0  5 14  9 20
+	13  8 19  4 15
+	18  1  6 21 10
+	 7 12 23 16  3
+	24 17  2 11 22

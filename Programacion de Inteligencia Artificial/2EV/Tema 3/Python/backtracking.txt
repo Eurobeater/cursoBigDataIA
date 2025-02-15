@@ -1,0 +1,83 @@
+PROCEDIMIENTO backtracking(nivel, solución_actual)
+    SI es_solución(solución_actual) ENTONCES
+        procesar_solución(solución_actual)
+    SINO
+        PARA CADA opción EN generar_opciones(nivel, solución_actual) HACER
+            SI es_valida(opción, solución_actual) ENTONCES
+                agregar_opción(opción, solución_actual)
+                backtracking(nivel + 1, solución_actual)
+                quitar_opción(opción, solución_actual)  // Retroceder
+            FIN SI
+        FIN PARA
+    FIN SI
+FIN PROCEDIMIENTO
+
+INICIO
+    solución_actual ← solución vacía
+    backtracking(0, solución_actual)
+FIN
+
+
+Problema de la Mochila 0/1
+==========================
+El Problema de la Mochila es un problema clásico de optimización que consiste en seleccionar un subconjunto de elementos con ciertos valores y pesos para maximizar el valor total sin exceder un límite de peso.
+
+Formulación:
+Se tiene una mochila con una capacidad máxima de peso W.
+Hay N objetos, cada uno con:
+    Un peso w[i]
+    Un valor v[i]
+Se debe determinar qué objetos incluir en la mochila para maximizar el valor total sin exceder la capacidad de peso.
+
+Algoritmo versión 1:
+
+PROCEDIMIENTO mochila_backtracking(i, peso_actual, valor_actual)
+    SI i = N ENTONCES
+        SI valor_actual > mejor_valor ENTONCES
+            mejor_valor ← valor_actual  // Guardar la mejor solución encontrada
+        RETORNAR
+
+    // Opción 1: No incluir el objeto i
+    mochila_backtracking(i + 1, peso_actual, valor_actual)
+
+    // Opción 2: Incluir el objeto i (si cabe en la mochila)
+    SI peso_actual + w[i] ≤ W ENTONCES
+        mochila_backtracking(i + 1, peso_actual + w[i], valor_actual + v[i])
+FIN PROCEDIMIENTO
+
+Algoritmo versión 2:
+
+PROCEDIMIENTO mochila_backtracking(i, peso_actual, valor_actual)
+    SI peso_actual > W ENTONCES
+        RETORNAR  // Si supera el peso máximo, retroceder
+
+    SI i = N ENTONCES
+        SI valor_actual > mejor_valor ENTONCES
+            mejor_valor ← valor_actual  // Guardar la mejor solución encontrada
+        RETORNAR
+
+    // Opción 1: No incluir el objeto i
+    mochila_backtracking(i + 1, peso_actual, valor_actual)
+
+    // Opción 2: Incluir el objeto i (si cabe en la mochila)
+    mochila_backtracking(i + 1, peso_actual + w[i], valor_actual + v[i])
+FIN PROCEDIMIENTO
+
+
+Resolver el problema en Python para los siguientes datos:
+# Datos del problema
+W = 10  # Capacidad de la mochila
+w = [2, 3, 4, 5]  # Pesos de los objetos
+v = [3, 4, 5, 6]  # Valores de los objetos
+
+
+
+
+
+
+
+
+
+
+
+
