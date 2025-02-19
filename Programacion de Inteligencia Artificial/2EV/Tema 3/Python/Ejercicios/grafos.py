@@ -4,75 +4,38 @@ import matplotlib.pyplot as plt
 def crear_grafo():
     G = nx.Graph()
 
-    # Agregamos los 15 nodos (0 a 14)
-    for nodo in range(15):
-        G.add_node(nodo)
+    aristas = [
+        (0, 1, 13), (0, 2, 2), (0, 3, 6), (0, 4, 18), (0, 5, 12),
+        (1, 2, 11), (1, 3, 11), (1, 4, 11), (1, 5, 12), (1, 6, 8), (1, 7, 10), (1, 8, 9), (1, 9, 9), (1, 10, 11),
+        (1, 11, 11), (1, 12, 4), (1, 13, 13), (1, 14, 8),
+        (2, 3, 4), (2, 4, 18), (2, 6, 4), (2, 7, 20), (2, 8, 17), (2, 9, 9), (2, 10, 9), (2, 11, 9), (2, 12, 4),
+        (2, 13, 6), (2, 14, 6),
+        (3, 4, 4), (3, 6, 2), (3, 7, 4), (3, 8, 10), (3, 9, 6), (3, 10, 19), (3, 11, 18), (3, 12, 19),
+        (3, 13, 11), (3, 14, 1),
+        (4, 6, 12), (4, 8, 16), (4, 9, 8), (4, 11, 2), (4, 12, 1), (4, 13, 18),
+        (5, 9, 16), (5, 11, 20), (5, 12, 5),
+        (6, 14, 8)
+    ]
 
-    # Aristas sin peso (según la lista de adyacencia proporcionada)
-    G.add_edge(0, 9)
-    G.add_edge(0, 10)
-    G.add_edge(0, 11)
-    G.add_edge(0, 12)
-    G.add_edge(0, 13)
-
-    G.add_edge(1, 9)
-    G.add_edge(1, 10)
-    G.add_edge(1, 11)
-
-    G.add_edge(2, 7)
-    G.add_edge(2, 8)
-    G.add_edge(2, 9)
-    G.add_edge(2, 11)
-    G.add_edge(2, 12)
-
-    G.add_edge(3, 2)
-    G.add_edge(3, 11)
-    G.add_edge(3, 13)
-
-    G.add_edge(4, 2)
-    G.add_edge(4, 9)
-    G.add_edge(4, 11)
-
-    G.add_edge(5, 12)
-    
-    # Aquí agregamos la arista entre 5 y 6 con peso 12, como indica el profesor.
-    G.add_edge(5, 6, weight=12)
-
-    G.add_edge(6, 7)
-    G.add_edge(6, 8)
-    G.add_edge(6, 12)
-    G.add_edge(6, 14)
-
-    G.add_edge(7, 10)
-    G.add_edge(7, 11)
-
-    G.add_edge(8, 9)
-    G.add_edge(8, 10)
-
-    G.add_edge(9, 10)
-
-    G.add_edge(13, 14)
+    for u, v, peso in aristas:
+        G.add_edge(u, v, weight=peso)
 
     return G
 
 def main():
     G = crear_grafo()
 
-    # Usamos el layout automático (spring_layout)
-    pos = nx.spring_layout(G, seed=42)
+    pos = nx.spring_layout(G, seed=42, k=0.35)
 
-    # Dibujamos los nodos y aristas
-    nx.draw_networkx_nodes(G, pos, node_color="skyblue", node_size=700)
-    nx.draw_networkx_edges(G, pos, edge_color="gray")
-    nx.draw_networkx_labels(G, pos, font_size=9, font_color="black")
+    plt.figure(figsize=(14, 14))
+    nx.draw_networkx_nodes(G, pos, node_color="skyblue", node_size=800)
+    nx.draw_networkx_edges(G, pos, edge_color="gray", width=1.5)
+    nx.draw_networkx_labels(G, pos, font_size=12, font_color="black", font_weight="bold")
 
-    # Obtenemos y dibujamos las etiquetas de las aristas (solo se mostrarán si se asignó el atributo 'weight')
     edge_labels = nx.get_edge_attributes(G, 'weight')
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color="red")
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color="red", font_size=9)
 
-    plt.title("Grafo con pesos (ejemplo)")
     plt.axis("off")
     plt.show()
 
-if __name__ == "__main__":
-    main()
+main()
