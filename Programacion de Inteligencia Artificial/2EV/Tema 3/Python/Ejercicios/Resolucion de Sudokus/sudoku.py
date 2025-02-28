@@ -1,50 +1,37 @@
-import os
-print(os.getcwd())
-
 def cargar_sudoku(nombre_fichero):
-    """
-    Carga un sudoku desde un fichero de texto y devuelve una matriz (lista de listas) de enteros.
-    Cada línea del fichero tiene los números separados por punto y coma.
-    Un 0 indica un hueco.
-    """
     tablero = []
     with open(nombre_fichero, "r") as f:
         for linea in f:
-            linea = linea.strip()  # quitar espacios y saltos de línea
+            linea = linea.strip()
+            
             if linea == "":
-                continue
-            # Separa la línea por ";"
+                continue    
+            
             linea_con_split = linea.split(";")
-            # Inicializa una lista vacía para la fila
             fila = []
-            # Para cada cadena en la lista 'partes'
             for numero_str in linea_con_split:
-                # Convierte la cadena a entero y añádelo a la lista 'fila'
                 fila.append(int(numero_str))
-            # Añade la fila completa al tablero
             tablero.append(fila)
     return tablero
 
 def imprimir_tablero(tablero):
-    """Imprime el tablero de forma legible."""
     for fila in tablero:
-        print(" ".join(str(num) for num in fila))
+        for num in fila:
+            print(num, end=" ")   
+        print()
     print()
 
 def es_valido(tablero, fila, col, num):
-    """Comprueba si es válido colocar 'num' en la posición (fila, col) del tablero."""
-    # Verificar fila: el número no debe aparecer en la misma fila.
     if num in tablero[fila]:
         return False
     
-    # Verificar columna:
     for i in range(9):
         if tablero[i][col] == num:
             return False
     
-    # Verificar el bloque de 3x3:
     inicio_fila = (fila // 3) * 3
     inicio_col = (col // 3) * 3
+    
     for i in range(inicio_fila, inicio_fila + 3):
         for j in range(inicio_col, inicio_col + 3):
             if tablero[i][j] == num:
@@ -53,7 +40,6 @@ def es_valido(tablero, fila, col, num):
     return True
 
 def encontrar_vacio(tablero):
-    """Encuentra una celda vacía (con 0). Devuelve (fila, col) o None si no hay."""
     for i in range(9):
         for j in range(9):
             if tablero[i][j] == 0:
@@ -61,38 +47,29 @@ def encontrar_vacio(tablero):
     return None
 
 def resolver_sudoku(tablero):
-    """
-    Función que resuelve el Sudoku usando backtracking.
-    Devuelve True si lo ha resuelto, dejando el tablero completo, o False si no hay solución.
-    """
     vacio = encontrar_vacio(tablero)
-    # Si no hay vacíos, el Sudoku está completo.
     if not vacio:
         return True
     
     fila, col = vacio
     
-    # Probar números del 1 al 9 en la celda vacía
     for num in range(1, 10):
         if es_valido(tablero, fila, col, num):
-            tablero[fila][col] = num  # Colocar el número
+            tablero[fila][col] = num
             
-            # Llamada recursiva: si con este número se llega a la solución, retorna True.
             if resolver_sudoku(tablero):
                 return True
             
-            # Si no funcionó, se hace backtracking: se reinicia la celda.
             tablero[fila][col] = 0
     
-    return False  # Ningún número funcionó en esta celda
+    return False
+
 
 def main():
-    # Carga el sudoku desde "matriz.txt"
     tablero = cargar_sudoku("C:/Users/Eurobeater/OneDrive/Documentos/Curso IA y Big Data Git/Programacion de Inteligencia Artificial/2EV/Tema 3/Python/Ejercicios/Resolucion de Sudokus/matriz.txt")
     print("Sudoku inicial:")
     imprimir_tablero(tablero)
     
-    # Resolver el sudoku con backtracking
     if resolver_sudoku(tablero):
         print("Sudoku resuelto:")
         imprimir_tablero(tablero)
