@@ -157,7 +157,7 @@ print(classifications[0])
 # ¿Qué resultados diferentes obtienes para la pérdida, el tiempo de entrenamiento, etc.? ¿Por qué crees que es así?
 
 # 512 neuronas
-print("512 neuronas\n")
+print("\n512 neuronas\n")
 model = tf.keras.Sequential([
     tf.keras.layers.Flatten(input_shape=(28, 28)),
     tf.keras.layers.Dense(512, activation='relu'),
@@ -172,7 +172,7 @@ model.fit(training_images, training_labels, epochs=5)
 
 
 # 1024 neuronas
-print("1024 neuronas\n")
+print("\n1024 neuronas\n")
 model = tf.keras.Sequential([
     tf.keras.layers.Flatten(input_shape=(28, 28)),
     tf.keras.layers.Dense(1024, activation='relu'),
@@ -184,4 +184,86 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 model.fit(training_images, training_labels, epochs=5)
+
+
+# 14. ¿Qué pasaría si eliminas la capa Flatten()? ¿Por qué crees que es así?
+
+## model = tf.keras.Sequential([
+##    # tf.keras.layers.Flatten(input_shape=(28, 28)), 
+##    tf.keras.layers.Dense(128, activation='relu'),  
+##    tf.keras.layers.Dense(10, activation='softmax') 
+## ])
+
+## model.compile(
+##     optimizer='adam',
+##     loss='sparse_categorical_crossentropy',
+##    metrics=['accuracy']
+## )
+
+# model.fit(training_images, training_labels, epochs=5)
+
+
+# 15. Considera las capas finales (de salida). ¿Por qué hay 10? ¿Qué pasaría si tuvieras una cantidad diferente a 10? Por ejemplo, intenta entrenar la red con 5
+
+# model = tf.keras.Sequential([
+#     tf.keras.layers.Flatten(input_shape=(28, 28)),
+#     tf.keras.layers.Dense(124, activation='relu'),
+#     tf.keras.layers.Dense(5, activation='softmax')
+# ])
+
+# model.compile(optimizer='adam',
+#               loss='sparse_categorical_crossentropy',
+#               metrics=['accuracy'])
+
+# model.fit(training_images, training_labels, epochs=5)
+
+
+# 16. Considera los efectos de capas adicionales en la red. ¿Qué pasará si agregas otra capa entre la que tiene 512 y la capa final con 10?
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation='relu'),
+    tf.keras.layers.Dense(256, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+model.fit(training_images, training_labels, epochs=5)
+
+
+# 18. Prueba con 15 épocas: probablemente obtendrás un modelo con una pérdida mucho mayor que el que tiene 5.
+
+print("\n15 épocas:\n")
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+model.fit(training_images, training_labels, epochs=15)
+
+
+# 19. Prueba 30 épocas: es posible que vea que el valor de pérdida deje de disminuir y, a veces, aumente.
+# Este es un efecto secundario de algo llamado "sobreajuste" y es algo que debes tener en cuenta al entrenar redes neuronales.
+# No tiene sentido perder el tiempo entrenando si no estás mejorando la pérdida. Es como si la RNA se lo hubiera aprendido de memoria.
+
+print("\n30 épocas:\n")
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+model.fit(training_images, training_labels, epochs=30)
 
