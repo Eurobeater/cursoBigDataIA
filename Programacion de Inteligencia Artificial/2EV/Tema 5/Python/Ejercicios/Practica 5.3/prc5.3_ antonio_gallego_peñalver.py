@@ -267,3 +267,57 @@ model.compile(optimizer='adam',
 
 model.fit(training_images, training_labels, epochs=30)
 
+
+# 20. Antes de entrenar, se normalizaron los datos, pasando de valores que eran 0-255 a valores que eran 0-1.
+# ¿Cuál sería el impacto de eliminar ese proceso? Aquí está el código completo para probarlo. ¿Por qué crees que obtienes resultados diferentes?
+
+print("\nSin normalizar:\n")
+training_images = training_images / 255.0
+test_images = test_images / 255.0
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+#model.fit(training_images, training_labels, epochs=5)
+
+loss, accuracy = model.evaluate(test_images, test_labels)
+print("Pérdida sin normalizar:", loss)
+print("Precisión sin normalizar:", accuracy)
+
+
+# 21. Anteriormente, cuando entrenaste con épocas adicionales, probablemente te fijaras en que a veces,
+# el valor de loss deja de disminuir o el valor de accuracy deja de aumentar.
+# Aun así, el entrenamiento no finalizó hasta pasado un buen rato.
+# Es posible que hayas pensado "¿no sería genial que pudiera detener el entrenamiento cuando se alcance un valor de accuracy deseado?"
+# Pregunta al chat gpt cómo puedes hacerlo utilizando una función de callback y añade a tu modelo que, una vez alcanzado el 91% de efectividad, deje de entrenar.
+
+class MyCallback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self, epoch, logs=None):
+        if logs.get('accuracy') >= 0.91:
+            print("\nSe ha alcanzado el 91% de precisión. ¡Deteniendo entrenamiento!")
+            self.model.stop_training = True
+
+# Instanciar el callback
+callbacks = MyCallback()
+
+# Crear el modelo
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+# Compilar el modelo
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Entrenar con el callback
+model.fit(training_images, training_labels, epochs=30, callbacks=[callbacks])
