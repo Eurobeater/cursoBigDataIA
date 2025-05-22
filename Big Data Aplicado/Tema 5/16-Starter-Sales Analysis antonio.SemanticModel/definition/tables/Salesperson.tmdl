@@ -1,0 +1,69 @@
+table Salesperson
+	lineageTag: 3c79913c-58f4-4f66-bf78-5620301ff77b
+	sourceLineageTag: 7d2bb797-a22f-4f92-93c2-336cc56df79c
+
+	/// Salesperson related to Sales
+	column EmployeeKey
+		dataType: int64
+		isHidden
+		isNullable: false
+		formatString: 0
+		lineageTag: 8e64a137-0d0b-466c-b426-c98877d4ff7d
+		sourceLineageTag: 591f68d7-bfad-4d7f-8842-0cb8498d0495
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: EmployeeKey
+
+		annotation SummarizationSetBy = User
+
+	/// Salesperson related to Sales
+	column EmployeeID
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fd7e6b59-2dbd-4542-bd60-d4b1f76389ba
+		sourceLineageTag: 4bf7f41f-a528-41f8-9199-f11b756e2c19
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: EmployeeID
+
+		annotation SummarizationSetBy = User
+
+	column Title
+		dataType: string
+		lineageTag: b38b0aa3-8de2-455e-b16f-b02ffce00a6f
+		sourceLineageTag: 1466b05f-5751-4cac-b629-a33b5548417d
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Title
+
+		annotation SummarizationSetBy = User
+
+	/// Salesperson related to Sales
+	column UPN
+		dataType: string
+		isHidden
+		lineageTag: 37404169-8f19-48d4-8bbd-c20ab5d5ae0f
+		sourceLineageTag: 89a9123a-ff31-473a-8f27-f8e396f7ed76
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: UPN
+
+		annotation SummarizationSetBy = User
+
+	column Salesperson
+		dataType: string
+		lineageTag: e0e31922-92f4-45c4-b970-564c4ab99b27
+		sourceLineageTag: 8459bc64-a465-4094-ac97-0202fdb87d70
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Salesperson
+
+		annotation SummarizationSetBy = User
+
+	partition Salesperson = entity
+		mode: directQuery
+		source
+			entityName: Salesperson
+			expressionSource: 'DirectQuery to AS - 16-Starter-Sales Analysis antonio'
+

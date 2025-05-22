@@ -1,0 +1,73 @@
+table Date
+	lineageTag: a5696d11-267c-490f-8da7-162a6dc7a7f7
+	sourceLineageTag: b11a86cf-d92e-4f86-bce2-8906a4823d37
+
+	column Date
+		dataType: dateTime
+		isNullable: false
+		formatString: General Number
+		lineageTag: 2ebe45ef-d180-4483-85d9-08906c551343
+		sourceLineageTag: f5fc300c-7163-45ab-8d2a-2fced06c3523
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = User
+
+	column Year
+		dataType: string
+		lineageTag: cb1affb9-03ae-40ec-b689-f2c4ca2696fe
+		sourceLineageTag: 5a2c0a6a-d861-42ec-8ee1-310f36848145
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column Quarter
+		dataType: string
+		lineageTag: 929c12f6-c24d-401d-8c6e-aad107784708
+		sourceLineageTag: e9a5fee7-a117-478a-9a66-4e3696372c9d
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = User
+
+	column Month
+		dataType: string
+		lineageTag: 2697e6f8-f9b4-46f8-88ad-d096f1f657fc
+		sourceLineageTag: c79e80fe-a254-4b38-9e01-c1c810dfaf43
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: MonthKey
+
+		annotation SummarizationSetBy = User
+
+	column MonthKey
+		dataType: int64
+		formatString: 0
+		lineageTag: e0f937f6-0ecf-4b50-a899-620b10a3bee2
+		sourceLineageTag: f26d8342-6ed4-46bc-b3c5-39efc04ce822
+		dataCategory: Uncategorized
+		summarizeBy: count
+		sourceColumn: MonthKey
+
+		annotation SummarizationSetBy = User
+
+	hierarchy Fiscal
+		lineageTag: f24005da-3203-4823-b1c2-e4a8df71b720
+		sourceLineageTag: a3a45406-031d-4167-b6ec-c0a9608e95a8
+
+		level Year
+			lineageTag: ef810bb4-d730-4725-8f10-4f6070f3f1a6
+			sourceLineageTag: 5730c2a5-ef6f-4b85-969f-dbdff05407e7
+			column: Year
+
+	partition Date = entity
+		mode: directQuery
+		source
+			entityName: Date
+			expressionSource: 'DirectQuery to AS - 16-Starter-Sales Analysis antonio'
+

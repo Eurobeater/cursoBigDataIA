@@ -1,0 +1,45 @@
+table 'US Population'
+	lineageTag: f11fa9af-fa2e-4fc5-8293-c9196fa06ed1
+
+	column State
+		dataType: string
+		lineageTag: 5b4737e7-4d3a-48d0-b3ea-1577d1ad4d56
+		summarizeBy: none
+		sourceColumn: State
+
+		annotation SummarizationSetBy = Automatic
+
+	column Population
+		dataType: string
+		lineageTag: 83ec6151-ba4d-4e14-989a-3d6c4df24508
+		summarizeBy: none
+		sourceColumn: Population
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rank
+		dataType: string
+		lineageTag: 51afb92f-b88d-4878-a29c-925990580919
+		summarizeBy: none
+		sourceColumn: Rank
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'US Population' = m
+		mode: import
+		source =
+				let
+				    Source = File.Contents("C:\Users\Eurobeater\Downloads\16-reusable-assets\us-resident-population-estimates-2020.html"),
+				    #"Extracted Table From Html" = Html.Table(Source, {{"Column1", "TABLE:nth-child(3) > * > TR > :nth-child(1)"}, {"Column2", "TABLE:nth-child(3) > * > TR > :nth-child(2)"}, {"Column3", "TABLE:nth-child(3) > * > TR > :nth-child(3)"}}, [RowSelector="TABLE:nth-child(3) > * > TR"]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Extracted Table From Html",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","STATE","",Replacer.ReplaceText,{"Column1"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","NUMBER","",Replacer.ReplaceText,{"Column2"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","RANK","",Replacer.ReplaceText,{"Column3"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Replaced Value2",{{"Column1", "State"}, {"Column2", "Population"}, {"Column3", "Rank"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

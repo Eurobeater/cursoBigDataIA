@@ -1,0 +1,115 @@
+table Product
+	lineageTag: 6956a616-39a6-485c-9428-6b840c3a20c7
+	sourceLineageTag: dd665867-e7a6-4a52-9aad-35c90f0546d2
+
+	column ProductKey
+		dataType: int64
+		isHidden
+		isNullable: false
+		formatString: 0
+		lineageTag: 7d57e4df-3acb-47d0-85b5-fa3f11cccea5
+		sourceLineageTag: 678d8652-936a-4dba-a325-58e53bb3af87
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: ProductKey
+
+		annotation SummarizationSetBy = User
+
+	column Product
+		dataType: string
+		lineageTag: 4aaf78f7-79bc-4143-b350-e7a537ed9f69
+		sourceLineageTag: a5e7dfaa-38f3-4305-91eb-04e3ccde571b
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Product
+
+		annotation SummarizationSetBy = User
+
+	column 'Standard Cost'
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: ae1071f2-d42f-4f0f-90a2-ddb3d74a6eb1
+		sourceLineageTag: 75a01e1a-9dea-46b0-aca4-02d9fa627859
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Standard Cost
+
+		annotation SummarizationSetBy = User
+
+	column Color
+		dataType: string
+		lineageTag: 329eec54-3e63-4394-bdf9-d5c32f601f9f
+		sourceLineageTag: 0fb9b24a-8122-4d20-b69f-7762edaced8c
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Color
+
+		annotation SummarizationSetBy = User
+
+	column Subcategory
+		dataType: string
+		lineageTag: 9a5ee28b-8621-49a1-b85e-ebc4e83adff1
+		sourceLineageTag: 5b8c3cee-1210-4525-86c3-aca2b361607e
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Subcategory
+
+		annotation SummarizationSetBy = User
+
+	column Category
+		dataType: string
+		lineageTag: 6441afdf-3a79-4083-8969-f7b3128c2da9
+		sourceLineageTag: d56f91e3-f005-42c6-a26e-69acb2b654e8
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = User
+
+	column 'Background Color Format'
+		dataType: string
+		displayFolder: Formatting
+		lineageTag: 0d2ede90-3f88-4ea6-9cc7-4609841eb24c
+		sourceLineageTag: 4ee84a8b-24bc-4222-99a8-edd95f508a5c
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Background Color Format
+
+		annotation SummarizationSetBy = User
+
+	column 'Font Color Format'
+		dataType: string
+		displayFolder: Formatting
+		lineageTag: 3c3c844b-7fd5-4a2f-b97e-0a9eb48991f0
+		sourceLineageTag: c45bccf0-8553-4d22-8593-e62f9b75f558
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Font Color Format
+
+		annotation SummarizationSetBy = User
+
+	hierarchy Products
+		lineageTag: 9ef47fec-d57a-4e0b-93e3-e6d19184cd16
+		sourceLineageTag: a9b76147-b249-4316-90c0-9fc7ef184e0d
+
+		level Category
+			lineageTag: 10962a73-ca2c-4825-8267-d2897da00138
+			sourceLineageTag: 500aa3db-b455-491e-a51d-ff829ff0f0a3
+			column: Category
+
+		level Subcategory
+			lineageTag: e890648c-ae0d-4619-9cd9-7e65ae3ed4ca
+			sourceLineageTag: c1755584-5d1c-45d7-86c2-fa3872a44c70
+			column: Subcategory
+
+		level Product
+			lineageTag: a2d37177-eabd-4088-b82d-a893a15d7e88
+			sourceLineageTag: fa0b3f0a-effa-4751-b9a6-d8793722513b
+			column: Product
+
+	partition Product = entity
+		mode: directQuery
+		source
+			entityName: Product
+			expressionSource: 'DirectQuery to AS - 16-Starter-Sales Analysis antonio'
+

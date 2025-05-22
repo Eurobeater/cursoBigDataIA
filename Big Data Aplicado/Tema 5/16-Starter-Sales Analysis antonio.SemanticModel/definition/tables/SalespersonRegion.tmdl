@@ -1,0 +1,32 @@
+table SalespersonRegion
+	lineageTag: b261ea9c-115c-45f0-9e7a-f71f53642334
+	sourceLineageTag: 1bc088d9-fc8b-44d4-a55c-864d6465b75c
+
+	column EmployeeKey
+		dataType: int64
+		formatString: 0
+		lineageTag: f088d4b0-050f-426c-b8ad-9f53e41735d7
+		sourceLineageTag: 8ab8ec41-c04d-4740-ac69-a93e839b2433
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: EmployeeKey
+
+		annotation SummarizationSetBy = User
+
+	column SalesTerritoryKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f519f50-0501-4528-a94d-84fe1bcd55d5
+		sourceLineageTag: f80a41e7-424f-4921-b2e6-83ee3f6cbfe3
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: SalesTerritoryKey
+
+		annotation SummarizationSetBy = User
+
+	partition SalespersonRegion = entity
+		mode: directQuery
+		source
+			entityName: SalespersonRegion
+			expressionSource: 'DirectQuery to AS - 16-Starter-Sales Analysis antonio'
+

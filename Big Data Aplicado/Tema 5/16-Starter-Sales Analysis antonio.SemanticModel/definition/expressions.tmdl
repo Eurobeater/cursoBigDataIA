@@ -1,0 +1,11 @@
+expression 'DirectQuery to AS - 16-Starter-Sales Analysis antonio' =
+		let
+		    Source = AnalysisServices.Database("powerbi://api.powerbi.com/v1.0/myorg/Lab16_workspace", "16-Starter-Sales Analysis antonio"),
+		    Cubes = Table.Combine(Source[Data]),
+		    Cube = Cubes{[Id="Model", Kind="Cube"]}[Data]
+		in
+		    Cube
+	lineageTag: 2e13e1d9-5918-4767-a8fe-d7a104dbe466
+
+	annotation PBI_IncludeFutureArtifacts = True
+
