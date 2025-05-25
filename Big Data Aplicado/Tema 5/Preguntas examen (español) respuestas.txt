@@ -1,0 +1,1233 @@
+1. Su empresa está implementando el procesamiento de datos en tiempo real mediante Spark Structured Streaming en Microsoft Fabric. Los datos de los dispositivos IoT deben almacenarse en una tabla Delta.
+
+Debe garantizar un procesamiento eficaz de los datos de streaming al tiempo que impide errores debidos a cambios en los datos.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Habilite el modo de sobrescritura.
+
+
+Establezca checkpointLocation en null.
+
+
+- Use ignoreChanges.
+
+
+Use el método Append.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+2. Su empresa ha configurado una instancia de Microsoft Fabric Lakehouse para almacenar y analizar datos de varios orígenes, incluidos Azure Event Hubs y archivos locales. Los datos se usan para generar informes de Power BI.
+
+Debe implementar un patrón de carga que admita cargas de datos completas e incrementales.
+
+¿Qué enfoque usa?
+
+Seleccione solo una respuesta.
+
+Desarrolle una herramienta ETL personalizada para cargas de datos.
+
+
+Use Azure Synapse Analytics para cargas de datos.
+
+
+Use Data Factory para cargas de datos incrementales.
+
+
+- Use Dataflows Gen2 para cargas de datos completas e incrementales.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+3. Su organización usa Microsoft Fabric para administrar la ingesta de datos en tiempo real desde varios dispositivos IoT a través de Azure Event Hubs. Los datos se procesan y almacenan en microsoft Delta Lake para su posterior análisis.
+
+Debe asegurarse de que las columnas innecesarias, como los identificadores de sensor, se quitan antes de almacenar los datos en formato de Microsoft Delta Lake.
+
+¿Qué medidas debe tomar?
+
+Seleccione solo una respuesta.
+
+Almacene los datos en un área de almacenamiento provisional temporal y filtre las columnas antes del almacenamiento final.
+
+
+Use un sistema de procesamiento por lotes para limpiar los datos antes de la transferencia.
+
+
+Use un trabajo de Spark para preprocesar datos antes de la ingesta.
+
+
+- Use el procesador de eventos para quitar columnas innecesarias.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+4. Su empresa ha implementado una instancia de Microsoft Fabric Lakehouse para almacenar y analizar datos de varios orígenes. Los datos se usan para generar informes de Microsoft Power BI y requieren actualizaciones periódicas.
+
+Debe asegurarse de que los datos de Microsoft Fabric lakehouse se actualizan incrementalmente para reflejar los cambios de los sistemas de origen.
+
+¿Qué método debe usar para lograr actualizaciones incrementales?
+
+Seleccione solo una respuesta.
+
+- Implemente una estrategia de marca de agua.
+
+
+Use un enfoque de recarga de datos completo.
+
+
+Use el procesamiento por lotes para las actualizaciones.
+
+
+Use la captura de datos modificados (CDC).
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+5. Su organización usa Microsoft Fabric para administrar la ingesta de datos de varios orígenes, incluidos Microsoft Azure Event Hubs y archivos locales. Los datos se usan para informes y análisis en tiempo real.
+
+Debe implementar una solución que transforme los datos de eventos en tiempo real antes de cargarlos en microsoft Fabric lakehouse.
+
+¿Qué debe hacer para lograr esto?
+
+Seleccione solo una respuesta.
+
+- Defina la lógica de procesamiento en tiempo real con el procesador de eventos.
+
+
+Use una canalización de Data Factory para la transformación de datos.
+
+
+Use una definición de trabajo de Spark para la transformación de datos.
+
+
+Use Azure Stream Analytics para la transformación de datos en tiempo real.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+6. Su organización usa Microsoft Fabric para administrar datos en tiempo real de dispositivos IoT enviados a Azure Event Hubs.
+
+Diseñe una solución para procesar eventos para el almacenamiento en una instancia de Fabric Lakehouse.
+
+¿Qué dos acciones debe realizar como parte de la solución?
+
+Seleccione todas las respuestas que procedan.
+
+- Configure una secuencia de eventos con Azure Event Hubs como origen.
+
+
+Use Azure Data Factory para la ingesta de datos en tiempo real.
+
+
+Use Azure Stream Analytics para procesar datos desde Azure Event Hubs.
+
+
+Use canalizaciones de Data Factory para ingerir datos en lakehouse.
+
+
+- Use el procesador de eventos para filtrar y transformar datos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+7. Va a implementar un almacenamiento de datos mediante Microsoft Fabric. Debe integrar datos de varios orígenes, incluidas las bases de datos de Microsoft Azure Data Lake Storage Gen2 y Microsoft SQL Server.
+
+Debe diseñar un proceso para cargar datos de forma eficaz en tablas, a la vez que garantiza la calidad y la coherencia de los datos.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Use Azure Synapse Analytics para la integración de datos.
+
+
+- Use canalizaciones de Data Factory para la orquestación ETL y la ejecución de T-SQL.
+
+
+- Use flujos de datos para ingerir y transformar datos de Azure Data Lake Storage Gen2.
+
+
+Use paquetes SSIS para la integración de datos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+8. Su organización usa Microsoft Fabric para administrar datos de varios orígenes, incluida Azure SQL Database.
+
+Debe garantizar la replicación continua de datos de Azure SQL Database en OneLake en un formato consultable sin canalizaciones ETL complejas.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Cree un flujo de datos para la importación continua de datos.
+
+
+Cree un flujo de datos para la importación periódica de datos.
+
+
+- Implementar la creación de reflejo de la base de datos.
+
+
+Use Azure Data Factory para la replicación continua de datos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+9. Su organización usa Microsoft Fabric para administrar datos en varias plataformas en la nube.
+
+Debe mejorar la eficacia del acceso a los datos y reducir la latencia de las cargas de trabajo de análisis al habilitar el acceso directo a los datos de Microsoft Azure Data Lake Storage (ADLS) Gen2 sin duplicarlos.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Cree accesos directos a ubicaciones de almacenamiento externas.
+
+
+- Habilite el almacenamiento en caché para los accesos directos de ADLS Gen2.
+
+
+Mover datos dentro de ADLS Gen2 mediante Azure Data Factory.
+
+
+- Use una puerta de enlace de datos para ubicaciones restringidas a la red.
+
+
+Use una puerta de enlace de datos para acceder directamente a datos externos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+10. Usa Microsoft Fabric para administrar la ingesta y transformación de datos. La tarea consiste en configurar una canalización de datos para ingerir datos por lotes de varios archivos CSV almacenados en Azure Blob Storage.
+
+Debe asegurarse de que el proceso sea eficaz y controle los errores de forma eficaz.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Especifique una ubicación para las filas rechazadas.
+
+
+Transforme los datos con Azure Data Lake Storage Gen2 antes de la ingesta.
+
+
+Transformar datos con Power BI antes de la ingesta.
+
+
+- Use la instrucción COPY para cargar datos.
+
+
+- Use caracteres comodín en la ruta de acceso para cargar varios archivos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+11. Puede usar Microsoft Fabric para administrar datos en plataformas en la nube. El equipo de ingeniería de datos debe ingerir datos por lotes de Azure Blob Storage en un almacenamiento.
+
+Determine el método más eficaz para importar estos datos mediante herramientas de Microsoft Fabric.
+
+¿Qué debe usar?
+
+Seleccione solo una respuesta.
+
+Azure Synapse Analytics.
+
+
+- Instrucción COPY con firma de acceso compartido.
+
+
+Canalización de Data Factory.
+
+
+Flujos de datos Gen2.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+12. Va a implementar una nueva solución de análisis de datos mediante Microsoft Fabric. Su equipo consta de ingenieros de datos cualificados en PySpark y SQL, y analistas de datos que usan Microsoft Power BI principalmente. Los datos que se van a ingerir incluyen formatos estructurados, semiestructurados y no estructurados de varios orígenes.
+
+Seleccione un almacén de datos que admita diversos formatos de datos y admita las operaciones pySpark y SQL para la transformación y el análisis de datos.
+
+¿Qué dos almacenes de datos proporcionan una solución completa?
+
+Seleccione todas las respuestas que procedan.
+
+Azure Data Lake Storage Gen2
+
+
+- Azure Synapse Analytics
+
+
+Centro de eventos de Microsoft Fabric
+
+
+- Microsoft Lakehouse
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+13. Su empresa usa Microsoft Fabric para administrar y analizar grandes volúmenes de datos de streaming de varios orígenes.
+
+Implemente una solución que filtre los datos no válidos y agregue campos calculados antes de almacenarlos en un lago.
+
+¿Qué tres acciones debe realizar como parte de la solución?
+
+Seleccione todas las respuestas que procedan.
+
+- Agregue columnas calculadas mediante expresiones de Spark SQL.
+
+
+- Filtre las filas con valores NULL en columnas críticas.
+
+
+Use un archivo CSV para el procesamiento por lotes de los datos.
+
+
+Use el procesamiento por lotes para las transformaciones de datos.
+
+
+- Use Spark Structured Streaming para leer el flujo de datos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+14. Su organización implementa una solución de análisis en tiempo real mediante Microsoft Fabric para procesar datos de streaming desde dispositivos IoT.
+
+Debe asegurarse de un procesamiento eficaz de los datos de streaming para solicitar consultas.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Implemente Spark Structured Streaming.
+
+
+- Configure un punto de conexión de SQL Analytics.
+
+
+Almacenar datos de streaming en un archivo JSON.
+
+
+Use Azure Stream Analytics para el procesamiento de datos.
+
+
+Use el procesamiento por lotes para cargar datos cada hora.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+15. Su organización está implementando una solución de análisis en tiempo real mediante Microsoft Fabric para procesar datos de streaming desde dispositivos IoT.
+
+Debe asegurarse de que los datos de streaming se procesan de forma eficaz y son accesibles para el análisis.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Configure un punto de conexión de SQL Analytics.
+
+
+Configure un flujo de datos de Power BI.
+
+
+Uso de Azure Stream Analytics
+
+
+- Use Spark Structured Streaming.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+16. Su organización usa Microsoft Fabric para flujos de trabajo de análisis de datos. Hay retrasos en el procesamiento debido a una supervisión ineficaz de la ingesta y transformación de datos.
+
+Debe implementar una solución para una supervisión eficaz de los flujos de trabajo de datos.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+- Configure alertas en el centro de Microsoft Real-Time.
+
+
+Crear un panel de Power BI.
+
+
+Almacene eventos de datos en un lago de datos.
+
+
+Use Azure Monitor.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+17. Su empresa ha implementado una arquitectura de lakehouse mediante Microsoft Fabric para admitir análisis de datos a gran escala. El equipo de ingeniería de datos debe asegurarse de que los procesos de transformación de datos están optimizados para mejorar el rendimiento y la confiabilidad.
+
+Debe supervisar los procesos de transformación de datos para detectar cuellos de botella o errores y mejorarlos en consecuencia.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+- Configure alertas para errores de transformación.
+
+
+Habilite el registro detallado para el análisis de rendimiento.
+
+
+Implemente el escalado automatizado para los procesos de transformación.
+
+
+Use herramientas de supervisión básicas sin configuraciones avanzadas.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+18. Una organización usa Microsoft Fabric para administrar y analizar grandes conjuntos de datos. Recientemente, los problemas con los procesos de ingesta de datos producen un error intermitente, lo que provoca retrasos en la disponibilidad de datos para el análisis.
+
+Debe implementar una estrategia para detectar patrones o problemas periódicos en las actividades de ingesta de datos.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Analice los registros de errores para las actividades de ingesta anteriores.
+
+
+- Configure alertas para futuros errores de ingesta.
+
+
+- Filtre las actividades por estado para identificar errores.
+
+
+Aumente la frecuencia de las comprobaciones de ingesta de datos.
+
+
+Quite todos los filtros para ver todas las actividades.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+19. Su empresa usa Microsoft Fabric para administrar canalizaciones de datos y ha integrado Microsoft Power BI para los informes. El equipo experimenta retrasos en las actualizaciones de informes debido a programaciones de actualización ineficaces.
+
+Debe optimizar el proceso de actualización sin sobrecargar los recursos del sistema.
+
+¿Qué acción debe realizar?
+
+Seleccione solo una respuesta.
+
+Aumente el tiempo de búfer entre los intentos de actualización.
+
+
+Aumente la frecuencia de actualización de todas las tablas.
+
+
+Aumente la frecuencia de actualización para tablas específicas.
+
+
+- Actualice tablas y particiones específicas.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+20. Su organización usa Microsoft Fabric para la administración de datos y se enfrenta a retrasos en la disponibilidad de los datos debido a problemas de supervisión.
+
+Necesita una solución para realizar un seguimiento eficaz de las actividades de ingesta de datos.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+- Configure alertas para eventos de Fabric Workspace en Real-Time hub.
+
+
+Implemente un mecanismo de registro para las actividades de ingesta de datos.
+
+
+Use Azure Event Hubs para la supervisión de la ingesta de datos.
+
+
+Use Power BI para configurar alertas de datos en tiempo real.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+21. Su empresa ha implementado una base de datos SQL en Microsoft Fabric para controlar el análisis de datos a gran escala. Recientemente, los usuarios notificaron un rendimiento lento de las consultas durante las horas punta.
+
+Debe implementar una solución que optimice el rendimiento de las consultas automáticamente sin intervención manual.
+
+¿Qué debe recomendar?
+
+Seleccione solo una respuesta.
+
+- Habilite el ajuste automático.
+
+
+Habilite la administración manual de índices.
+
+
+Habilite el almacenamiento en caché de consultas.
+
+
+Habilite las directivas de gobernanza de recursos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+22. Su organización usa Microsoft Fabric para administrar canalizaciones de datos para procesar los datos de los clientes. Recientemente, se produjo un error en la ejecución de una canalización debido a un error de deserialización.
+
+Debe resolver el error para garantizar la ejecución correcta de la canalización.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Ajuste la configuración del formato de datos.
+
+
+Compruebe si hay errores de coincidencia de esquema.
+
+
+- Compruebe los registros en tiempo de ejecución para obtener detalles de error.
+
+
+Reinicie la ejecución de la canalización.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+23. Una empresa implementa una secuencia de eventos mediante Microsoft Fabric para procesar datos en tiempo real de varios orígenes. Sin embargo, los errores frecuentes en tiempo de ejecución afectan al procesamiento de datos.
+
+La empresa planea garantizar un procesamiento de datos sin problemas mediante la identificación y resolución de errores en tiempo de ejecución.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones deben realizarse?
+
+Seleccione todas las respuestas que procedan.
+
+- Compruebe Data Insights para ver las métricas de eventos.
+
+
+Deshabilite la transformación de datos de eventstream.
+
+
+- Filtre los registros por gravedad de error.
+
+
+Modifique la lógica de transformación de datos.
+
+
+- Revise los registros en tiempo de ejecución para obtener detalles de error.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+24. Su empresa usa Microsoft Fabric para administrar canalizaciones de datos para análisis a gran escala. Recientemente, se produjo un error en varias ejecuciones de canalización debido a errores en la transformación de datos, lo que provoca retrasos en los informes y el análisis.
+
+Debe implementar un mecanismo que permita que una canalización finalice con detalles de error específicos cuando se produzcan condiciones como datos que faltan o errores internos.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Agregue una actividad Fail a la canalización.
+
+
+- Configure la actividad Fail con detalles de error personalizados.
+
+
+- Crear una nueva tubería.
+
+
+Use una actividad de flujo de datos para la detección de errores.
+
+
+Use una actividad script para el control de errores.
+
+
+Use una actividad Wait para retrasar la ejecución de la canalización.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+25. Su organización usa Microsoft Fabric Lakehouse para almacenar y analizar grandes conjuntos de datos. Recientemente, el equipo notó un aumento de los costos de almacenamiento debido a los archivos antiguos que ya no son necesarios para las operaciones actuales.
+
+Debe reducir los costos de almacenamiento mediante la eliminación de archivos innecesarios al tiempo que se mantiene la integridad de los datos.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Habilite la compresión V-Order.
+
+
+Reduzca el período de retención de archivos.
+
+
+Use el comando OPTIMIZE.
+
+
+- Use el comando VACUUM.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+26. Una organización usa Microsoft Fabric para administrar un centro de lago de datos a gran escala que contiene numerosas tablas Delta actualizadas con frecuencia y consultadas por varios equipos de análisis. Sin embargo, el rendimiento de las consultas se ha degradado con el tiempo, lo que provoca un aumento de los tiempos de procesamiento y mayores costos.
+
+Debe implementar estrategias de mantenimiento para mejorar la eficacia de las tablas Delta en un lago.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Aplicar orden V.
+
+
+Habilite el almacenamiento en caché delta.
+
+
+- Uso del comando OPTIMIZE
+
+
+Reduzca el período de retención.
+
+
+- Use el comando VACUUM.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+27. Su organización usa una instancia de Data LakeHouse para administrar grandes conjuntos de datos para el análisis. Recientemente, el rendimiento de las consultas en una tabla Delta se ha degradado debido a muchos archivos parquet pequeños.
+
+Debe mejorar la eficacia de las consultas de tabla Delta.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Aplicar orden V.
+
+
+Convertir a un formato de tabla de Hive.
+
+
+Habilite el almacenamiento en caché delta.
+
+
+Aumente la creación de particiones de datos.
+
+
+Use el comando OPTIMIZE.
+
+
+Use el comando VACCUM.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+28. Su organización usa una instancia de Data LakeHouse para administrar grandes conjuntos de datos para el análisis. Recientemente, el rendimiento de las consultas en una tabla Delta se ha degradado debido a muchos archivos parquet pequeños.
+
+Debe mejorar la eficacia de las consultas de tabla Delta.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Aplicar orden V.
+
+
+Convertir a un formato de tabla de Hive.
+
+
+Habilite el almacenamiento en caché delta.
+
+
+Aumente la creación de particiones de datos.
+
+
+- Use el comando OPTIMIZE.
+
+
+- Use el comando VACCUM.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+29. Su empresa usa Microsoft Fabric Lakehouse para administrar grandes conjuntos de datos para el análisis. Recientemente, el rendimiento de las consultas en una tabla Delta se ha degradado debido a un aumento en los archivos Parquet pequeños.
+
+Debe optimizar la tabla Delta para mejorar la eficacia de las consultas.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Aplique V-Order para mejorar la ordenación y compresión de datos.
+
+
+Convierta en formato de tabla de Hive.
+
+
+Aumente el número de particiones de la tabla Delta.
+
+
+- Use el comando OPTIMIZE para consolidar archivos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+30. Su organización ha implementado un almacenamiento de datos de Microsoft Fabric para controlar la ingesta y el procesamiento de datos a gran escala. La configuración actual implica cargas de datos frecuentes durante todo el día, lo que a veces conduce a cuellos de botella de rendimiento.
+
+Debe optimizar el proceso de ingesta de datos para controlar grandes volúmenes de forma eficaz sin causar problemas de rendimiento.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Divida las operaciones INSERT grandes en partes más pequeñas.
+
+
+- Agrupa las instrucciones INSERT en lotes.
+
+
+Use tipos de datos más grandes para las columnas.
+
+
+Use tipos de datos más pequeños para las columnas.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+31. Su empresa usa Microsoft Fabric para administrar un almacenamiento de datos que admita varias cargas de trabajo analíticas. Los usuarios notifican un rendimiento lento de las consultas, especialmente durante la ejecución inicial de las consultas.
+
+Debe optimizar el rendimiento de las consultas para la ejecución inicial sin depender de estadísticas automáticas.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Habilite el almacenamiento en caché de consultas.
+
+
+Habilite el paralelismo de consultas.
+
+
+- Cree manualmente estadísticas para las tablas consultadas con frecuencia.
+
+
+- Use el modo Direct Lake en Power BI.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+32. Su organización realiza la transición a una arquitectura de malla de datos mediante Microsoft Fabric. Usted es responsable de organizar los datos en dominios.
+
+Debe configurar las opciones para la administración independiente de reglas y restricciones por cada unidad de negocio.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Asigne áreas de trabajo a varios dominios.
+
+
+Configure etiquetas de confidencialidad específicas del dominio.
+
+
+Cree áreas de trabajo con la configuración de gobernanza compartida.
+
+
+- Delegar la configuración de nivel de inquilino en dominios.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+33. Una empresa usa Microsoft Fabric para flujos de trabajo de ingeniería de datos y observa que los trabajos de Spark son lentos debido a la asignación de recursos poco óptima.
+
+Debe mejorar la eficacia del trabajo de Spark ajustando la configuración del entorno.
+
+¿Qué acción debe realizarse?
+
+Seleccione solo una respuesta.
+
+- Habilite la asignación dinámica de ejecutores.
+
+
+Aumente el número de particiones.
+
+
+Establezca una asignación de memoria fija para ejecutores.
+
+
+Establezca un número fijo de nodos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+34. Una organización usa Microsoft Fabric para la ingeniería de datos y experimenta retrasos con trabajos de Apache Spark debido a una gran demanda de recursos compartidos.
+
+Debe optimizar el tiempo de ejecución del trabajo de Spark mediante la configuración de un grupo de Spark personalizado.
+
+¿Qué acción debe realizarse?
+
+Seleccione solo una respuesta.
+
+- Cree un grupo de Spark personalizado con el escalado automático habilitado y establezca el número máximo de nodos en función de la carga máxima.
+
+
+Cree un grupo de Spark personalizado con asignación de nodos estáticos.
+
+
+Habilite la asignación estática de ejecutores.
+
+
+Use un grupo de Spark personalizado con un número fijo de nodos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+35. Su organización usa Microsoft Fabric para administrar datos entre departamentos.
+
+Debe asegurarse de que cada departamento puede administrar su configuración de gobernanza de datos de forma independiente.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Asigne áreas de trabajo a un único dominio.
+
+
+Consolide todos los departamentos bajo un dominio.
+
+
+- Delegar la configuración de nivel de inquilino en dominios.
+
+
+Implementar directivas de gobernanza centralizadas.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+36. Su empresa usa Microsoft Fabric para administrar cargas de trabajo de ingeniería de datos. El equipo tiene problemas de rendimiento con los trabajos de Spark debido a una asignación de recursos ineficaz.
+
+Debe optimizar la configuración del grupo de Spark para mejorar el rendimiento y reducir los costos.
+
+¿Qué tres acciones debe realizar? Cada respuesta correcta presenta parte de la solución.
+
+Seleccione todas las respuestas que procedan.
+
+- Configure la asignación dinámica para ejecutores.
+
+
+- Habilite la escalabilidad automática para el aprovisionamiento de nodos.
+
+
+Habilite la asignación de recursos fija.
+
+
+- Seleccione nodos optimizados para memoria.
+
+
+Use nodos optimizados para proceso.
+
+
+Use la asignación de nodos estáticos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+37. Su organización usa Microsoft Fabric para administrar tareas de ingeniería de datos. La configuración actual incluye un grupo de inicio para trabajos de Apache Spark, pero el equipo observa que algunos trabajos requieren más recursos de proceso que el grupo de inicio puede proporcionar.
+
+Debe optimizar la configuración del área de trabajo para controlar eficazmente trabajos de Spark más grandes sin aumentar significativamente los tiempos de inicio de sesión.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Cree un grupo de Spark personalizado con escalado automático.
+
+
+Deshabilite el grupo de inicio.
+
+
+- Habilite la asignación dinámica de ejecutores.
+
+
+Aumente la memoria del ejecutor en el grupo de inicio.
+
+
+Aumente el número de particiones en el trabajo de Spark.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+38. Usa Microsoft Fabric para administrar soluciones de análisis de datos en su organización. El equipo es responsable de optimizar el rendimiento del trabajo de Spark en el área de trabajo.
+
+Debe configurar las opciones del área de trabajo para mejorar la eficacia de la ejecución del trabajo de Spark.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Deshabilite el almacenamiento en caché inteligente para grupos de Spark.
+
+
+- Habilite el escalado automático para grupos de Spark.
+
+
+Habilite el almacenamiento en caché inteligente para grupos de Spark.
+
+
+- Reserva los núcleos máximos para los trabajos.
+
+
+Seleccione otra versión del entorno de ejecución de Spark.
+
+
+- Usar el modo de simultaneidad alta.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+39. Su empresa usa canalizaciones de implementación de Microsoft Fabric con varias fases.
+
+Debe determinar la hora de la última implementación para cada fase.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Compruebe los registros de implementación de cada fase.
+
+
+Compruebe la configuración de la canalización de implementación para cada fase.
+
+
+- Revise el historial de implementación de cada fase.
+
+
+Use la página de estado de implementación para ver los cambios recientes.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+40. Una organización usa canalizaciones de implementación de Microsoft Fabric con varias fases para soluciones de análisis.
+
+Debe asegurarse de que las conexiones de base de datos son correctas después de implementar contenido en cada fase.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Compruebe la configuración de conexión de la base de datos.
+
+
+- Definir reglas de implementación.
+
+
+Use el enlace automático.
+
+
+Use canalizaciones de implementación para administrar las conexiones de base de datos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+41. Su organización usa Microsoft Fabric para soluciones de análisis. El equipo debe configurar canalizaciones de implementación para las transiciones entre entornos de desarrollo, pruebas y producción.
+
+Debe mantener configuraciones distintas para cada fase y asegurarse de que solo se promueven los cambios comprobados a producción.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Asigne un área de trabajo a todas las fases.
+
+
+- Cree reglas de implementación únicas para cada fase.
+
+
+Implemente contenido en todas las fases simultáneamente.
+
+
+- Use la implementación selectiva para el control de contenido.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+42. Su empresa debe enmascarar datos confidenciales en la tabla CustomerInfo para usuarios sin privilegios. La tabla contiene columnas CustomerID, Name, Address y CreditCardNumber.
+
+Debe aplicar una máscara a la columna CreditCardNumber para cumplir con la directiva de gobernanza de datos.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+ALTER TABLE CustomerInfo ALTER COLUMN CreditCardNumber ADD MASKED WITH (FUNCTION = 'default()');
+
+
+- ALTER TABLE CustomerInfo ALTER COLUMN CreditCardNumber ADD MASKED WITH (FUNCTION = 'partial(0,"XXXX-XXXX-XXXX-",4)');
+
+
+CREATE VIEW MaskedCustomerInfo AS SELECT CustomerID, Name, Address, 'XXXX-XXXX-XXXX-XXXX' AS CreditCardNumber FROM CustomerInfo;
+
+
+CREATE VIEW PublicCustomerInfo AS SELECT CustomerID, Name, Address, CreditCardNumber FROM CustomerInfo;
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+43. Su empresa está implementando una nueva estrategia de gobernanza de datos mediante Microsoft Fabric. El almacenamiento de datos contiene varias tablas con información confidencial que se deben proteger contra el acceso no autorizado.
+
+Debe asegurarse de que solo el personal médico autorizado pueda acceder a la columna "MedicalHistory" en la tabla "Pacientes".
+
+¿Qué debe usar?
+
+Seleccione solo una respuesta.
+
+- Seguridad de nivel de columna
+
+
+Enmascaramiento dinámico de datos
+
+
+Seguridad de nivel de fila
+
+
+Roles del área de trabajo
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+44. Su empresa usa un almacenamiento de datos de Microsoft Fabric para almacenar la información de salario de los empleados.
+
+Debe configurar permisos para que solo los usuarios específicos puedan ver los datos de salario sin máscara, mientras que otros ven datos enmascarados.
+
+¿Qué permiso debe conceder a los usuarios autorizados?
+
+Seleccione solo una respuesta.
+
+Conceda permiso ALTER ANY MASK.
+
+
+Conceda el permiso SELECT.
+
+
+- Conceda permiso UNMASK.
+
+
+Conceda el permiso VIEW DEFINITION.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+45. Su organización usa Microsoft Fabric para administrar un almacenamiento de datos que contenga datos financieros confidenciales.
+
+Debe implementar la seguridad de nivel de columna para restringir el acceso a columnas específicas que contienen información confidencial solo para el personal financiero autorizado.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Aplicar enmascaramiento dinámico de datos a columnas confidenciales.
+
+
+- Crear roles para el personal financiero.
+
+
+- Conceda permiso SELECT a los roles financieros.
+
+
+- Identificar columnas confidenciales.
+
+
+Implemente la seguridad de nivel de fila.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+46. Su empresa tiene un almacenamiento de datos en Microsoft Fabric para almacenar datos de ventas. Los distintos departamentos necesitan acceso a estos datos, pero cada departamento solo debe ver los datos relevantes para sus operaciones.
+
+Debe configurar el almacenamiento de datos para que cada departamento solo pueda ver sus propios datos de ventas.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Cree una directiva de seguridad con un predicado de filtro para departamentos.
+
+
+Implemente la seguridad de nivel de columna para el acceso a la tabla Sales.
+
+
+Implemente la seguridad de nivel de columna para los datos de ventas confidenciales.
+
+
+- Implemente la seguridad de nivel de fila mediante identificadores de departamento.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+47. Su organización usa Microsoft Fabric para administrar un almacenamiento de datos que contenga información confidencial del cliente, incluidas las direcciones de correo electrónico y los números de tarjeta de crédito.
+
+Debe evitar que los usuarios sin privilegios vean direcciones de correo electrónico completas y números de tarjeta de crédito.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué dos acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+Aplique la seguridad de nivel de columna para restringir el acceso a columnas confidenciales.
+
+
+Implemente la seguridad de nivel de fila para restringir el acceso a datos confidenciales.
+
+
+- Use el enmascaramiento dinámico de datos en CreditCardNumber con la función partial().
+
+
+- Use el enmascaramiento dinámico de datos en correo electrónico con la función email().
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+48. Su empresa implementa una nueva solución de análisis de datos mediante Microsoft Fabric.
+
+Debe diseñar un patrón de orquestación que minimice la intervención manual y admita la carga dinámica de datos en un lago.
+
+¿Qué enfoque recomendaría?
+
+Seleccione solo una respuesta.
+
+Cree canalizaciones individuales para cada origen de datos.
+
+
+- Implemente una canalización de Data Factory con parámetros y expresiones dinámicas.
+
+
+Use un único cuaderno para todas las actividades ETL sin parámetros.
+
+
+Use una configuración estática para la carga de datos.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+49. Su organización usa Microsoft Azure Synapse Analytics para administrar canalizaciones de datos. Ha surgido un nuevo requisito para desencadenar una canalización cada vez que se carga un nuevo archivo en una carpeta específica de una cuenta de Microsoft Azure Blob Storage.
+
+Debe implementar una solución que desencadene la canalización tras la carga de archivos.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+- Cree un desencadenador de eventos de almacenamiento para eventos creados por blobs en la carpeta .
+
+
+Programe una ejecución de canalización diaria para comprobar si hay nuevos archivos.
+
+
+Use una aplicación lógica para supervisar la cuenta de almacenamiento de los nuevos archivos.
+
+
+Use una función de Azure para supervisar la cuenta de almacenamiento y desencadenar la canalización.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+50. Su organización usa Microsoft Fabric para canalizaciones de datos ETL. El equipo quiere el procesamiento dinámico de datos en función de los parámetros de entrada.
+
+Debe asegurarse de un control eficaz de varios conjuntos de datos dentro de la canalización.
+
+¿Qué debe hacer?
+
+Seleccione solo una respuesta.
+
+Cree canalizaciones independientes para cada tipo de conjunto de datos.
+
+
+- Implemente canalizaciones con parámetros.
+
+
+Use una sola canalización para todos los conjuntos de datos.
+
+
+Use valores codificados de forma rígida.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Su empresa está implementando una solución de almacenamiento de datos mediante Microsoft Fabric. El equipo de ingeniería de datos debe cargar datos de varios archivos CSV almacenados en Azure Blob Storage en el almacenamiento.
+
+Debe importar datos de forma eficaz desde estos archivos CSV al almacenamiento mediante T-SQL.
+
+Cada respuesta correcta presenta parte de la solución. ¿Qué tres acciones debe realizar?
+
+Seleccione todas las respuestas que procedan.
+
+- Especifique FIELDTERMINATOR en la instrucción COPY.
+
+
+Use un flujo de datos para cargar archivos CSV.
+
+
+- Use un token de SAS para el acceso a Azure Blob Storage.
+
+
+Use la instrucción BULK INSERT para cargar datos CSV.
+
+
+- Use la instrucción COPY con comodín para la ruta de acceso del archivo.
+
+
+Usar INSERT... SELECCIONE para cargar datos CSV.
