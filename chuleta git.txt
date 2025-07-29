@@ -11,8 +11,9 @@
 	3. Establecer conexión entre el repositorio local y el repositorio remoto. Agrega un nuevo repositorio remoto
 		git remote add origin <url>
 	
-	4. Subir los cambios (commits) locales en la rama main al repositorio remoto origin
+	4. Subir los cambios (commits) locales en la rama main al repositorio remoto origin (si se queja y esta el repositorio virtual vacío, usar con force)
 		git push -u origin main
+		git push --force origin main (SOLO SI DA PROBLEMAS)
 
 
 #######################################################
